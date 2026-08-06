@@ -1,0 +1,31 @@
+name: Motor Chakal App
+
+on:
+  schedule:
+    - cron: '0 10 * * *' # Se ejecuta automáticamente a las 12:00h (hora de España)
+  workflow_dispatch: # Nos pone un botón para ejecutarlo a mano cuando queramos
+
+jobs:
+  actualizar-datos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Preparar motor de Chakal App
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Instalar herramientas
+        run: npm install
+        
+      - name: Extraer datos de FútbolFantasy
+        run: node scraper.js
+        
+      - name: Guardar nuevo lineups.json en la base de datos
+        run: |
+          git config --global user.name "Chakal Bot"
+          git config --global user.email "bot@chakalapp.com"
+          git add lineups.json
+          git commit -m "🛡️ Actualizando onces probables" || exit 0
+          git push
