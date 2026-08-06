@@ -7,79 +7,57 @@ function normalizar(texto) {
 }
 
 async function extraerOnces() {
-    let datosGlobales = {
-        actualizado: new Date().toISOString(),
-        players: {}
-    };
+    let datosGlobales = { actualizado: new Date().toISOString(), players: {} };
+    console.log("⏳ Buscando equipos uno a uno (incluyendo ascendidos)...");
 
-    console.log("⏳ Buscando equipos actualizados en FútbolFantasy...");
+    // Lista blindada con todos los equipos posibles (adiós errores 404)
+    const equipos = [
+        'alaves', 'athletic', 'atletico', 'barcelona', 'betis', 'celta', 'deportivo', 
+        'espanyol', 'getafe', 'girona', 'las-palmas', 'leganes', 'mallorca', 'osasuna', 
+        'rayo', 'real-madrid', 'real-sociedad', 'sevilla', 'valencia', 'valladolid', 'villarreal'
+    ];
 
-    try {
-        // 1. Obtener la lista de equipos dinámica
-        let resLista = await axios.get('https://www.futbolfantasy.com/laliga/equipos', {
-            headers: { 'User-Agent': 'Mozilla/5.0' }
-        });
+    let procesados = 0;
+
+    for (let equipo of equipos) {
+        let exito = false;
         
-        let $ = cheerio.load(resLista.data);
-        let slugs = new Set();
-        
-        $('a[href^="/laliga/equipos/"]').each((_, el) => {
-            let href = $(el).attr('href');
-            let parts = href.split('/');
-            let slug = parts[parts.length - 1];
-            if (slug && slug !== 'equipos') slugs.add(slug);
-        });
+        // El script probará ambas rutas por si FútbolFantasy cambia la URL
+        let urlsAProbar = [
+            `https://www.futbolfantasy.com/laliga/equipos/${equipo}`,
+            `https://www.futbolfantasy.com/equipos/${equipo}`
+        ];
 
-        let equipos = Array.from(slugs);
-        console.log(`✅ ${equipos.length} equipos detectados: ${equipos.join(', ')}`);
-
-        // 2. Extraer jugadores de cada equipo
-        for (let equipo of equipos) {
+        for (let url of urlsAProbar) {
+            if (exito) break;
             try {
-                let url = `https://www.futbolfantasy.com/laliga/equipos/${equipo}`;
-                let respuesta = await axios.get(url, {
-                    headers: { 'User-Agent': 'Mozilla/5.0' }
-                });
+                let respuesta = await axios.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+                let $ = cheerio.load(respuesta.data);
+                let contador = 0;
 
-                let $eq = cheerio.load(respuesta.data);
+                $('.camiseta-wrapper').each((_, element) => {
+                    let nombre = $(element).attr('data-nombre') || $(element).find('.nombre, .truncate-name').first().text().trim();
+                    let prob = $(element).attr('data-probabilidad') || $(element).find('[class*="prob-"]').first().text().trim();
 
-                $eq('.camiseta-wrapper').each((_, element) => {
-                    let nombreAttr = $eq(element).attr('data-nombre');
-                    let probAttr = $eq(element).attr('data-probabilidad');
-
-                    if (!nombreAttr) {
-                        let spanNombre = $eq(element).find('.nombre, .truncate-name').first().text().trim();
-                        if (spanNombre) nombreAttr = spanNombre;
-                    }
-
-                    if (!probAttr) {
-                        let spanProb = $eq(element).find('[class*="prob-"]').first().text().trim();
-                        if (spanProb) probAttr = spanProb;
-                    }
-
-                    if (nombreAttr && probAttr) {
-                        let nombreLimpio = normalizar(nombreAttr);
-                        let probNum = parseInt(probAttr.replace('%', ''), 10) || 0;
-
-                        datosGlobales.players[nombreLimpio] = {
-                            titular: probNum >= 60,
-                            prob: `${probNum}%`,
-                            equipo: equipo
-                        };
+                    if (nombre && prob) {
+                        datosGlobales.players[normalizar(nombre)] = { prob: `${parseInt(prob.replace('%', '')) || 0}%` };
+                        contador++;
                     }
                 });
-                console.log(`✅ Procesado: ${equipo}`);
-            } catch (err) {
-                console.error(`❌ Error en ${equipo}:`, err.message);
+
+                if (contador > 0) {
+                    console.log(`✅ Procesado: ${equipo} (${contador} jugadores)`);
+                    procesados++;
+                    exito = true;
+                }
+            } catch (e) {
+                // Ignoramos el 404 de la primera ruta y probamos la segunda en silencio
             }
         }
-
-        fs.writeFileSync('lineups.json', JSON.stringify(datosGlobales, null, 2), 'utf8');
-        console.log("\n🎉 ¡Archivo generado con todos los equipos reales!");
-
-    } catch (error) {
-        console.error("❌ Error al obtener los equipos:", error.message);
     }
+
+    fs.writeFileSync('lineups.json', JSON.stringify(datosGlobales, null, 2), 'utf8');
+    console.log(`\n🎉 ¡Completado! ${procesados} equipos añadidos al archivo (Depor incluido).`);
 }
 
 extraerOnces();

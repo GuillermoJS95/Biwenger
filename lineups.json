@@ -1,1880 +1,1160 @@
 {
-  "actualizado": "2026-08-06T17:01:13.448Z",
+  "actualizado": "2026-08-06T17:50:03.136Z",
   "players": {
-    "r. de galarreta": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "athletic"
-    },
-    "unai simon": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "athletic"
-    },
-    "paredes": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "athletic"
-    },
-    "i. williams": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "athletic"
-    },
-    "areso": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "athletic"
-    },
-    "yeray": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "athletic"
-    },
-    "n. williams": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "athletic"
-    },
-    "sancet": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "athletic"
-    },
-    "jauregizar": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "athletic"
-    },
-    "yuri": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "athletic"
-    },
-    "guruzeta": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "athletic"
-    },
-    "navarro": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "athletic"
-    },
-    "rincon": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "athletic"
-    },
-    "boiro": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "athletic"
-    },
-    "vivian": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "athletic"
-    },
-    "canales": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "athletic"
-    },
-    "prados": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "athletic"
-    },
-    "berenguer": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "athletic"
-    },
-    "laporte": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "athletic"
-    },
-    "rego": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "athletic"
-    },
-    "gerenabarrena": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "athletic"
-    },
-    "selton": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "athletic"
-    },
-    "serrano": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "athletic"
-    },
-    "gorosabel": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "athletic"
-    },
-    "djalo": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "athletic"
-    },
-    "padilla": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "athletic"
-    },
-    "vencedor": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "athletic"
-    },
-    "sannadi": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "athletic"
-    },
-    "agirrezabala": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "athletic"
-    },
-    "egiluz": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "athletic"
-    },
-    "ruggeri": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "atletico"
-    },
-    "oblak": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "atletico"
-    },
-    "baena": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "atletico"
-    },
-    "lookman": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "atletico"
-    },
-    "giuliano": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "atletico"
-    },
-    "hjulmand": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "atletico"
-    },
-    "barrios": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "atletico"
-    },
-    "sorloth": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "atletico"
-    },
-    "hancko": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "atletico"
-    },
-    "m. llorente": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "atletico"
-    },
-    "le normand": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "atletico"
-    },
-    "alvarez": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "atletico"
-    },
-    "grimaldo": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "atletico"
-    },
-    "pubill": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "atletico"
-    },
-    "koke": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "atletico"
-    },
-    "cardoso": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "sevilla"
-    },
-    "mendoza": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "atletico"
-    },
-    "ortiz": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "betis"
-    },
-    "molina": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "atletico"
-    },
-    "bonar": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "atletico"
-    },
-    "jorge dominguez": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "atletico"
-    },
-    "vargas": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "sevilla"
-    },
-    "gimenez": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "atletico"
-    },
-    "kang-in lee": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "atletico"
-    },
-    "carlos martin": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "atletico"
-    },
-    "musso": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "atletico"
-    },
-    "almada": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "atletico"
-    },
-    "lemar": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "atletico"
-    },
-    "yamal": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "barcelona"
-    },
-    "fermin": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "barcelona"
-    },
-    "ferran": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "barcelona"
-    },
-    "bernal": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "betis"
-    },
-    "kounde": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "barcelona"
-    },
-    "raphinha": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "barcelona"
-    },
-    "martin": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "barcelona"
-    },
-    "balde": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "barcelona"
-    },
-    "pedri": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "barcelona"
-    },
-    "joan garcia": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "barcelona"
-    },
-    "cubarsi": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "barcelona"
-    },
-    "eric garcia": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "barcelona"
-    },
-    "olmo": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "barcelona"
-    },
-    "gordon": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "barcelona"
-    },
-    "gavi": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "barcelona"
-    },
-    "araujo": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "barcelona"
-    },
-    "adeyemi": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "barcelona"
-    },
-    "espart": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "barcelona"
-    },
-    "casado": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "barcelona"
-    },
-    "fort": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "barcelona"
-    },
-    "a. christensen": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "barcelona"
-    },
-    "bardghji": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "barcelona"
-    },
-    "szczesny": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "barcelona"
-    },
-    "f. de jong": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "barcelona"
-    },
-    "fran garcia": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "betis"
-    },
-    "valles": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "betis"
-    },
-    "abde": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "betis"
-    },
-    "antony": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "betis"
-    },
-    "isco": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "betis"
-    },
-    "marc roca": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "betis"
-    },
-    "fornals": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "betis"
-    },
-    "natan": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "betis"
-    },
-    "d. llorente": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "betis"
-    },
-    "bellerin": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "betis"
-    },
-    "cucho": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "betis"
-    },
-    "riquelme": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "betis"
-    },
-    "pablo garcia": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "betis"
-    },
-    "lo celso": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "betis"
-    },
-    "deossa": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "betis"
-    },
-    "fidalgo": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "betis"
-    },
-    "bartra": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "betis"
-    },
-    "conde": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "betis"
-    },
-    "junior": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "betis"
-    },
-    "valentin gomez": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "betis"
-    },
-    "morante": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "betis"
-    },
-    "losada": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "betis"
-    },
-    "petit": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "betis"
-    },
-    "manu gonzalez": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "betis"
-    },
-    "ruibal": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "betis"
-    },
-    "moriba": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "celta"
-    },
-    "javi rodriguez": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "celta"
-    },
-    "carreira": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "celta"
-    },
-    "radu": {
-      "titular": true,
-      "prob": "95%",
-      "equipo": "celta"
-    },
-    "m. alonso": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "celta"
-    },
-    "starfelt": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "celta"
-    },
-    "rueda": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "celta"
-    },
-    "roman": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "celta"
-    },
-    "swedberg": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "celta"
-    },
-    "hugo gonzalez": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "celta"
-    },
-    "jutgla": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "celta"
-    },
-    "hugo alvarez": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "celta"
-    },
-    "febas": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "celta"
-    },
-    "galan": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "celta"
-    },
-    "aspas": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "celta"
-    },
-    "lago": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "celta"
-    },
-    "a. nunez": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "celta"
-    },
-    "vecino": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "celta"
-    },
-    "dominguez": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "celta"
-    },
-    "duran": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "celta"
-    },
-    "el-abdellaoui": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "celta"
-    },
-    "faye": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "celta"
-    },
-    "manu fernandez": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "celta"
-    },
-    "iglesias": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "sevilla"
-    },
-    "ivan villar": {
-      "titular": false,
-      "prob": "5%",
-      "equipo": "celta"
-    },
-    "carles perez": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "celta"
-    },
-    "u. nunez": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "celta"
-    },
-    "roberto": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "espanyol"
-    },
-    "pere milla": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "espanyol"
-    },
-    "dmitrovic": {
-      "titular": true,
-      "prob": "95%",
-      "equipo": "espanyol"
-    },
-    "dolan": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "espanyol"
-    },
-    "edu exposito": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "espanyol"
-    },
-    "urko": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "espanyol"
-    },
-    "riedel": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "espanyol"
-    },
-    "cabrera": {
-      "titular": true,
-      "prob": "95%",
-      "equipo": "espanyol"
-    },
-    "hartman": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "espanyol"
-    },
-    "el hilali": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "espanyol"
-    },
-    "calatrava": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "espanyol"
-    },
-    "jofre": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "espanyol"
-    },
-    "moscardo": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "espanyol"
-    },
-    "lozano": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "espanyol"
-    },
-    "marcos": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "espanyol"
-    },
-    "hinojo": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "espanyol"
-    },
-    "ruben sanchez": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "espanyol"
-    },
-    "javier hernandez": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "espanyol"
-    },
-    "bauza": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "espanyol"
-    },
-    "miguel rubio": {
-      "titular": false,
-      "prob": "5%",
-      "equipo": "espanyol"
-    },
-    "fortuno": {
-      "titular": false,
-      "prob": "5%",
-      "equipo": "espanyol"
-    },
-    "kike garcia": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "espanyol"
-    },
-    "puado": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "espanyol"
-    },
-    "mario martin": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "getafe"
-    },
-    "femenia": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "getafe"
-    },
-    "abqar": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "getafe"
-    },
-    "romero": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "villarreal"
-    },
-    "boselli": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "getafe"
-    },
-    "davinchi": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "getafe"
-    },
-    "djene": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "getafe"
-    },
-    "terrats": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "getafe"
-    },
-    "soria": {
-      "titular": true,
-      "prob": "95%",
-      "equipo": "getafe"
-    },
-    "uche": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "getafe"
-    },
-    "satriano": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "getafe"
-    },
-    "andres garcia": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "getafe"
-    },
-    "sazonov": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "getafe"
-    },
-    "mayoral": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "getafe"
-    },
-    "berrocal": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "getafe"
-    },
-    "bekhoucha": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "getafe"
-    },
-    "valou": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "getafe"
-    },
-    "sancris": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "getafe"
-    },
-    "javi munoz": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "getafe"
-    },
-    "letacek": {
-      "titular": false,
-      "prob": "5%",
-      "equipo": "getafe"
-    },
-    "neyou": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "getafe"
-    },
-    "juanmi": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "getafe"
-    },
-    "bellingham": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "real-madrid"
-    },
-    "courtois": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "real-madrid"
-    },
-    "mbappe": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "real-madrid"
-    },
-    "vinicius": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "real-madrid"
-    },
-    "y. diomande": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "real-madrid"
-    },
-    "tchouameni": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "real-madrid"
-    },
-    "valverde": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "real-madrid"
-    },
-    "cucurella": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "real-madrid"
-    },
-    "alexander-arnold": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "real-madrid"
-    },
-    "konate": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "real-madrid"
-    },
-    "huijsen": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "real-madrid"
-    },
-    "rudiger": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "real-madrid"
-    },
-    "dumfries": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "real-madrid"
-    },
-    "bernardo silva": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "real-madrid"
-    },
-    "guler": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "real-madrid"
-    },
-    "camavinga": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "real-madrid"
-    },
-    "carlos espi": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "real-madrid"
-    },
-    "brahim": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "real-madrid"
-    },
-    "a. f. carreras": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "real-madrid"
-    },
-    "lunin": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "real-madrid"
-    },
-    "endrick": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "real-madrid"
-    },
-    "mastantuono": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "real-madrid"
-    },
-    "mendy": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "rayo-vallecano"
-    },
-    "asencio": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "real-madrid"
-    },
-    "militao": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "real-madrid"
-    },
-    "thiago": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "villarreal"
-    },
-    "rodrygo": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "real-madrid"
-    },
-    "jon martin": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "real-sociedad"
-    },
-    "remiro": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "real-sociedad"
-    },
-    "oyarzabal": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "real-sociedad"
-    },
-    "guedes": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "real-sociedad"
-    },
-    "barrenetxea": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "real-sociedad"
-    },
-    "l. sucic": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "real-sociedad"
-    },
-    "carlos soler": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "real-sociedad"
-    },
-    "turrientes": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "real-sociedad"
-    },
-    "sergio gomez": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "real-sociedad"
-    },
-    "zubeldia": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "real-sociedad"
-    },
-    "aramburu": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "real-sociedad"
-    },
-    "kubo": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "real-sociedad"
-    },
-    "herrera": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "osasuna"
-    },
-    "gorrotxategi": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "real-sociedad"
-    },
-    "marin": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "real-sociedad"
-    },
-    "zakharyan": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "real-sociedad"
-    },
-    "oskarsson": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "real-sociedad"
-    },
-    "beitia": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "real-sociedad"
-    },
-    "aihen": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "real-sociedad"
-    },
-    "ochieng": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "real-sociedad"
-    },
-    "kita": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "real-sociedad"
-    },
-    "pacheco": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "real-sociedad"
-    },
-    "marrero": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "real-sociedad"
-    },
-    "balda": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "real-sociedad"
-    },
-    "goti": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "real-sociedad"
-    },
-    "javi lopez": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "real-sociedad"
-    },
-    "ruperez": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "real-sociedad"
-    },
-    "karrikaburu": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "real-sociedad"
-    },
-    "odriozola": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "real-sociedad"
-    },
-    "kike salas": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "sevilla"
-    },
-    "guridi": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "sevilla"
-    },
-    "guillen": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "sevilla"
-    },
-    "vlachodimos": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "sevilla"
-    },
-    "sierra": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "sevilla"
-    },
-    "suazo": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "sevilla"
-    },
-    "sangante": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "sevilla"
-    },
-    "agoume": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "sevilla"
-    },
-    "peque": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "sevilla"
-    },
-    "castrin": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "sevilla"
-    },
-    "oso": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "sevilla"
-    },
-    "julio diaz": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "sevilla"
-    },
-    "carmona": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "sevilla"
-    },
-    "manu bueno": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "sevilla"
-    },
-    "marcao": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "sevilla"
-    },
-    "fran gonzalez": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "sevilla"
-    },
-    "alfon": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "sevilla"
-    },
-    "ejuke": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "sevilla"
-    },
-    "sow": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "sevilla"
-    },
-    "jordan": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "sevilla"
-    },
-    "pedrosa": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "sevilla"
-    },
-    "gattoni": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "sevilla"
-    },
-    "alberto": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "sevilla"
-    },
-    "tarrega": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "valencia"
-    },
-    "dimitrievski": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "valencia"
-    },
-    "javi guerra": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "valencia"
-    },
-    "sato": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "valencia"
-    },
-    "danjuma": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "valencia"
-    },
-    "dieng": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "valencia"
-    },
-    "sadiq": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "valencia"
-    },
-    "de haas": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "valencia"
-    },
-    "gaya": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "valencia"
-    },
-    "foulquier": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "valencia"
-    },
-    "guido": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "valencia"
-    },
-    "pepelu": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "valencia"
-    },
-    "rioja": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "valencia"
-    },
-    "diakhaby": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "valencia"
-    },
-    "duro": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "valencia"
-    },
-    "ugrinic": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "valencia"
-    },
-    "almeida": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "valencia"
-    },
-    "iranzo": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "valencia"
-    },
-    "cordoba": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "valencia"
-    },
-    "jesus vazquez": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "valencia"
-    },
-    "raba": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "valencia"
-    },
-    "rivero": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "valencia"
-    },
-    "alberto mari": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "valencia"
-    },
-    "canos": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "valencia"
-    },
-    "copete": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "valencia"
-    },
-    "diego lopez": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "valencia"
-    },
-    "comesana": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "villarreal"
-    },
-    "mikautadze": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "villarreal"
-    },
-    "mourino": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "villarreal"
-    },
-    "luiz junior": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "villarreal"
-    },
-    "moleiro": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "villarreal"
-    },
-    "pepe": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "villarreal"
-    },
-    "gerard": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "villarreal"
-    },
-    "pape gueye": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "villarreal"
-    },
-    "pau navarro": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "villarreal"
-    },
-    "veiga": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "villarreal"
-    },
-    "foyth": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "villarreal"
-    },
-    "carlos macia": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "villarreal"
-    },
-    "freeman": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "villarreal"
-    },
-    "ayoze": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "villarreal"
-    },
-    "gulacsi": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "villarreal"
-    },
-    "buchanan": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "villarreal"
-    },
-    "oluwaseyi": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "villarreal"
-    },
-    "s. cardona": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "villarreal"
-    },
-    "logan costa": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "villarreal"
-    },
-    "diatta": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "villarreal"
-    },
-    "akhomach": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "villarreal"
-    },
-    "kambwala": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "villarreal"
-    },
-    "fores": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "villarreal"
-    },
     "alena": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "alaves"
+      "prob": "50%"
     },
     "angel perez": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "alaves"
+      "prob": "80%"
     },
     "koski": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "alaves"
+      "prob": "70%"
     },
     "jonny": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "alaves"
+      "prob": "80%"
     },
     "tenaglia": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "alaves"
+      "prob": "90%"
     },
     "rebbach": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "alaves"
+      "prob": "60%"
     },
     "blanco": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "alaves"
+      "prob": "90%"
     },
     "ibanez": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "alaves"
+      "prob": "70%"
     },
     "sivera": {
-      "titular": true,
-      "prob": "95%",
-      "equipo": "alaves"
+      "prob": "95%"
     },
     "toni martinez": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "alaves"
+      "prob": "80%"
     },
     "boye": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "alaves"
+      "prob": "80%"
     },
     "denis suarez": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "alaves"
+      "prob": "50%"
     },
     "youssef": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "alaves"
+      "prob": "40%"
     },
     "protesoni": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "alaves"
+      "prob": "30%"
     },
     "guevara": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "alaves"
+      "prob": "30%"
     },
     "diarra": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "alaves"
+      "prob": "30%"
     },
     "olaiz": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "alaves"
+      "prob": "30%"
     },
     "miguel": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "alaves"
+      "prob": "20%"
     },
     "mikel rodriguez": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "alaves"
+      "prob": "20%"
     },
     "novoa": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "alaves"
+      "prob": "20%"
     },
     "mariano": {
-      "titular": false,
-      "prob": "10%",
-      "equipo": "alaves"
+      "prob": "10%"
     },
     "owono": {
-      "titular": false,
-      "prob": "5%",
-      "equipo": "alaves"
+      "prob": "5%"
     },
     "diallo": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "alaves"
+      "prob": "0%"
     },
     "aitor manas": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "alaves"
+      "prob": "0%"
     },
     "maras": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "alaves"
+      "prob": "0%"
     },
     "adrian": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "alaves"
+      "prob": "0%"
     },
     "garces": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "alaves"
+      "prob": "0%"
+    },
+    "r. de galarreta": {
+      "prob": "70%"
+    },
+    "unai simon": {
+      "prob": "90%"
+    },
+    "paredes": {
+      "prob": "60%"
+    },
+    "i. williams": {
+      "prob": "60%"
+    },
+    "areso": {
+      "prob": "50%"
+    },
+    "yeray": {
+      "prob": "70%"
+    },
+    "n. williams": {
+      "prob": "60%"
+    },
+    "sancet": {
+      "prob": "70%"
+    },
+    "jauregizar": {
+      "prob": "70%"
+    },
+    "yuri": {
+      "prob": "60%"
+    },
+    "guruzeta": {
+      "prob": "70%"
+    },
+    "navarro": {
+      "prob": "50%"
+    },
+    "rincon": {
+      "prob": "40%"
+    },
+    "boiro": {
+      "prob": "40%"
+    },
+    "vivian": {
+      "prob": "40%"
+    },
+    "canales": {
+      "prob": "30%"
+    },
+    "prados": {
+      "prob": "30%"
+    },
+    "berenguer": {
+      "prob": "30%"
+    },
+    "laporte": {
+      "prob": "30%"
+    },
+    "rego": {
+      "prob": "20%"
+    },
+    "gerenabarrena": {
+      "prob": "10%"
+    },
+    "selton": {
+      "prob": "10%"
+    },
+    "serrano": {
+      "prob": "10%"
+    },
+    "gorosabel": {
+      "prob": "10%"
+    },
+    "djalo": {
+      "prob": "10%"
+    },
+    "padilla": {
+      "prob": "10%"
+    },
+    "vencedor": {
+      "prob": "0%"
+    },
+    "sannadi": {
+      "prob": "0%"
+    },
+    "agirrezabala": {
+      "prob": "0%"
+    },
+    "egiluz": {
+      "prob": "0%"
+    },
+    "ruggeri": {
+      "prob": "50%"
+    },
+    "oblak": {
+      "prob": "90%"
+    },
+    "baena": {
+      "prob": "50%"
+    },
+    "lookman": {
+      "prob": "80%"
+    },
+    "giuliano": {
+      "prob": "70%"
+    },
+    "hjulmand": {
+      "prob": "70%"
+    },
+    "barrios": {
+      "prob": "60%"
+    },
+    "sorloth": {
+      "prob": "70%"
+    },
+    "hancko": {
+      "prob": "80%"
+    },
+    "m. llorente": {
+      "prob": "50%"
+    },
+    "le normand": {
+      "prob": "50%"
+    },
+    "alvarez": {
+      "prob": "50%"
+    },
+    "grimaldo": {
+      "prob": "50%"
+    },
+    "pubill": {
+      "prob": "50%"
+    },
+    "koke": {
+      "prob": "40%"
+    },
+    "cardoso": {
+      "prob": "0%"
+    },
+    "mendoza": {
+      "prob": "30%"
+    },
+    "ortiz": {
+      "prob": "30%"
+    },
+    "molina": {
+      "prob": "30%"
+    },
+    "bonar": {
+      "prob": "20%"
+    },
+    "jorge dominguez": {
+      "prob": "20%"
+    },
+    "vargas": {
+      "prob": "70%"
+    },
+    "gimenez": {
+      "prob": "10%"
+    },
+    "kang-in lee": {
+      "prob": "10%"
+    },
+    "carlos martin": {
+      "prob": "10%"
+    },
+    "musso": {
+      "prob": "10%"
+    },
+    "almada": {
+      "prob": "0%"
+    },
+    "lemar": {
+      "prob": "0%"
+    },
+    "yamal": {
+      "prob": "80%"
+    },
+    "fermin": {
+      "prob": "50%"
+    },
+    "ferran": {
+      "prob": "60%"
+    },
+    "bernal": {
+      "prob": "40%"
+    },
+    "kounde": {
+      "prob": "50%"
+    },
+    "raphinha": {
+      "prob": "60%"
+    },
+    "martin": {
+      "prob": "90%"
+    },
+    "balde": {
+      "prob": "70%"
+    },
+    "pedri": {
+      "prob": "70%"
+    },
+    "joan garcia": {
+      "prob": "90%"
+    },
+    "cubarsi": {
+      "prob": "60%"
+    },
+    "eric garcia": {
+      "prob": "50%"
+    },
+    "olmo": {
+      "prob": "50%"
+    },
+    "gordon": {
+      "prob": "50%"
+    },
+    "gavi": {
+      "prob": "40%"
+    },
+    "araujo": {
+      "prob": "40%"
+    },
+    "adeyemi": {
+      "prob": "40%"
+    },
+    "espart": {
+      "prob": "30%"
+    },
+    "casado": {
+      "prob": "10%"
+    },
+    "fort": {
+      "prob": "10%"
+    },
+    "a. christensen": {
+      "prob": "10%"
+    },
+    "bardghji": {
+      "prob": "10%"
+    },
+    "szczesny": {
+      "prob": "10%"
+    },
+    "f. de jong": {
+      "prob": "0%"
+    },
+    "fran garcia": {
+      "prob": "80%"
+    },
+    "valles": {
+      "prob": "70%"
+    },
+    "abde": {
+      "prob": "50%"
+    },
+    "antony": {
+      "prob": "60%"
+    },
+    "isco": {
+      "prob": "70%"
+    },
+    "marc roca": {
+      "prob": "70%"
+    },
+    "fornals": {
+      "prob": "80%"
+    },
+    "natan": {
+      "prob": "80%"
+    },
+    "d. llorente": {
+      "prob": "70%"
+    },
+    "bellerin": {
+      "prob": "70%"
+    },
+    "cucho": {
+      "prob": "70%"
+    },
+    "riquelme": {
+      "prob": "40%"
+    },
+    "pablo garcia": {
+      "prob": "40%"
+    },
+    "lo celso": {
+      "prob": "30%"
+    },
+    "deossa": {
+      "prob": "30%"
+    },
+    "fidalgo": {
+      "prob": "30%"
+    },
+    "bartra": {
+      "prob": "30%"
+    },
+    "conde": {
+      "prob": "30%"
+    },
+    "junior": {
+      "prob": "20%"
+    },
+    "valentin gomez": {
+      "prob": "20%"
+    },
+    "morante": {
+      "prob": "10%"
+    },
+    "losada": {
+      "prob": "0%"
+    },
+    "petit": {
+      "prob": "0%"
+    },
+    "manu gonzalez": {
+      "prob": "0%"
+    },
+    "ruibal": {
+      "prob": "0%"
+    },
+    "moriba": {
+      "prob": "60%"
+    },
+    "javi rodriguez": {
+      "prob": "80%"
+    },
+    "carreira": {
+      "prob": "70%"
+    },
+    "radu": {
+      "prob": "95%"
+    },
+    "m. alonso": {
+      "prob": "90%"
+    },
+    "starfelt": {
+      "prob": "70%"
+    },
+    "rueda": {
+      "prob": "50%"
+    },
+    "roman": {
+      "prob": "70%"
+    },
+    "swedberg": {
+      "prob": "50%"
+    },
+    "hugo gonzalez": {
+      "prob": "50%"
+    },
+    "jutgla": {
+      "prob": "80%"
+    },
+    "hugo alvarez": {
+      "prob": "50%"
+    },
+    "febas": {
+      "prob": "50%"
+    },
+    "galan": {
+      "prob": "50%"
+    },
+    "aspas": {
+      "prob": "40%"
+    },
+    "lago": {
+      "prob": "30%"
+    },
+    "a. nunez": {
+      "prob": "30%"
+    },
+    "vecino": {
+      "prob": "20%"
+    },
+    "dominguez": {
+      "prob": "20%"
+    },
+    "duran": {
+      "prob": "20%"
+    },
+    "el-abdellaoui": {
+      "prob": "10%"
+    },
+    "faye": {
+      "prob": "10%"
+    },
+    "manu fernandez": {
+      "prob": "10%"
+    },
+    "iglesias": {
+      "prob": "60%"
+    },
+    "ivan villar": {
+      "prob": "5%"
+    },
+    "carles perez": {
+      "prob": "0%"
+    },
+    "u. nunez": {
+      "prob": "0%"
+    },
+    "aubameyang": {
+      "prob": "70%"
+    },
+    "mario": {
+      "prob": "80%"
+    },
+    "loureiro": {
+      "prob": "70%"
+    },
+    "noubi": {
+      "prob": "80%"
+    },
+    "amatucci": {
+      "prob": "60%"
+    },
+    "ximo": {
+      "prob": "60%"
+    },
+    "quagliata": {
+      "prob": "50%"
+    },
+    "leo roman": {
+      "prob": "80%"
+    },
+    "altimira": {
+      "prob": "70%"
+    },
+    "yeremay": {
+      "prob": "60%"
+    },
+    "luismi": {
+      "prob": "50%"
+    },
+    "asp jensen": {
+      "prob": "50%"
+    },
+    "villares": {
+      "prob": "50%"
+    },
+    "angelino": {
+      "prob": "50%"
+    },
+    "bil nsongo": {
+      "prob": "50%"
+    },
+    "ede": {
+      "prob": "50%"
+    },
+    "gijselhart": {
+      "prob": "30%"
+    },
+    "eddahchouri": {
+      "prob": "20%"
+    },
+    "barcia": {
+      "prob": "20%"
+    },
+    "comas": {
+      "prob": "20%"
+    },
+    "alvaro": {
+      "prob": "20%"
+    },
+    "mella": {
+      "prob": "10%"
+    },
+    "riki": {
+      "prob": "10%"
+    },
+    "kevin sanchez": {
+      "prob": "10%"
+    },
+    "ruben lopez": {
+      "prob": "0%"
+    },
+    "noriega": {
+      "prob": "0%"
+    },
+    "noe carrillo": {
+      "prob": "0%"
+    },
+    "jurado": {
+      "prob": "0%"
+    },
+    "patino": {
+      "prob": "0%"
+    },
+    "puerto": {
+      "prob": "0%"
+    },
+    "german parreno": {
+      "prob": "0%"
+    },
+    "roberto": {
+      "prob": "70%"
+    },
+    "pere milla": {
+      "prob": "50%"
+    },
+    "dmitrovic": {
+      "prob": "95%"
+    },
+    "dolan": {
+      "prob": "50%"
+    },
+    "edu exposito": {
+      "prob": "70%"
+    },
+    "urko": {
+      "prob": "80%"
+    },
+    "riedel": {
+      "prob": "90%"
+    },
+    "cabrera": {
+      "prob": "95%"
+    },
+    "hartman": {
+      "prob": "70%"
+    },
+    "el hilali": {
+      "prob": "80%"
+    },
+    "calatrava": {
+      "prob": "70%"
+    },
+    "jofre": {
+      "prob": "50%"
+    },
+    "moscardo": {
+      "prob": "50%"
+    },
+    "lozano": {
+      "prob": "50%"
+    },
+    "marcos": {
+      "prob": "30%"
+    },
+    "hinojo": {
+      "prob": "30%"
+    },
+    "ruben sanchez": {
+      "prob": "20%"
+    },
+    "javier hernandez": {
+      "prob": "10%"
+    },
+    "bauza": {
+      "prob": "10%"
+    },
+    "miguel rubio": {
+      "prob": "5%"
+    },
+    "fortuno": {
+      "prob": "5%"
+    },
+    "kike garcia": {
+      "prob": "0%"
+    },
+    "puado": {
+      "prob": "0%"
+    },
+    "mario martin": {
+      "prob": "80%"
+    },
+    "femenia": {
+      "prob": "60%"
+    },
+    "abqar": {
+      "prob": "70%"
+    },
+    "romero": {
+      "prob": "80%"
+    },
+    "boselli": {
+      "prob": "60%"
+    },
+    "davinchi": {
+      "prob": "80%"
+    },
+    "djene": {
+      "prob": "90%"
+    },
+    "terrats": {
+      "prob": "80%"
+    },
+    "soria": {
+      "prob": "95%"
+    },
+    "uche": {
+      "prob": "70%"
+    },
+    "satriano": {
+      "prob": "90%"
+    },
+    "andres garcia": {
+      "prob": "50%"
+    },
+    "sazonov": {
+      "prob": "30%"
+    },
+    "mayoral": {
+      "prob": "30%"
+    },
+    "berrocal": {
+      "prob": "30%"
+    },
+    "bekhoucha": {
+      "prob": "30%"
+    },
+    "valou": {
+      "prob": "30%"
+    },
+    "sancris": {
+      "prob": "20%"
+    },
+    "javi munoz": {
+      "prob": "10%"
+    },
+    "letacek": {
+      "prob": "5%"
+    },
+    "neyou": {
+      "prob": "0%"
+    },
+    "juanmi": {
+      "prob": "0%"
     },
     "rosier": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "osasuna"
+      "prob": "50%"
     },
     "boyomo": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "osasuna"
+      "prob": "80%"
     },
     "catena": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "osasuna"
+      "prob": "80%"
     },
     "bretones": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "osasuna"
+      "prob": "90%"
     },
     "iker munoz": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "osasuna"
+      "prob": "50%"
     },
     "moncayola": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "osasuna"
+      "prob": "90%"
     },
     "oroz": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "osasuna"
+      "prob": "70%"
     },
     "ruben g.": {
-      "titular": true,
-      "prob": "60%",
-      "equipo": "osasuna"
+      "prob": "60%"
     },
     "raul moro": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "osasuna"
+      "prob": "70%"
+    },
+    "herrera": {
+      "prob": "50%"
     },
     "budimir": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "osasuna"
+      "prob": "90%"
     },
     "torro": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "osasuna"
+      "prob": "50%"
     },
     "benito": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "osasuna"
+      "prob": "50%"
     },
     "herrando": {
-      "titular": false,
-      "prob": "40%",
-      "equipo": "osasuna"
+      "prob": "40%"
     },
     "moi gomez": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "osasuna"
+      "prob": "30%"
     },
     "kike barja": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "osasuna"
+      "prob": "30%"
     },
     "dubasin": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "osasuna"
+      "prob": "30%"
     },
     "aitor": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "osasuna"
+      "prob": "30%"
     },
     "raul garcia": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "osasuna"
+      "prob": "20%"
     },
     "osambela": {
-      "titular": false,
-      "prob": "20%",
-      "equipo": "osasuna"
+      "prob": "20%"
     },
     "arguibide": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "osasuna"
+      "prob": "0%"
     },
-    "lejeune": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "rayo-vallecano"
+    "bellingham": {
+      "prob": "70%"
     },
-    "ratiu": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "rayo-vallecano"
+    "courtois": {
+      "prob": "70%"
     },
-    "alvaro garcia": {
-      "titular": true,
-      "prob": "80%",
-      "equipo": "rayo-vallecano"
+    "mbappe": {
+      "prob": "70%"
     },
-    "balliu": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "rayo-vallecano"
+    "vinicius": {
+      "prob": "90%"
     },
-    "pathe ciss": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "rayo-vallecano"
+    "y. diomande": {
+      "prob": "50%"
     },
-    "valentin": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "rayo-vallecano"
+    "tchouameni": {
+      "prob": "70%"
     },
-    "unai lopez": {
-      "titular": true,
-      "prob": "70%",
-      "equipo": "rayo-vallecano"
+    "valverde": {
+      "prob": "90%"
     },
-    "pedro diaz": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "rayo-vallecano"
+    "cucurella": {
+      "prob": "70%"
     },
-    "de frutos": {
-      "titular": true,
-      "prob": "90%",
-      "equipo": "rayo-vallecano"
+    "alexander-arnold": {
+      "prob": "50%"
     },
-    "batalla": {
-      "titular": true,
-      "prob": "95%",
-      "equipo": "rayo-vallecano"
+    "konate": {
+      "prob": "50%"
     },
-    "camello": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "rayo-vallecano"
+    "huijsen": {
+      "prob": "70%"
     },
-    "alemao": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "rayo-vallecano"
+    "rudiger": {
+      "prob": "50%"
     },
-    "pep chavarria": {
-      "titular": false,
-      "prob": "50%",
-      "equipo": "rayo-vallecano"
+    "dumfries": {
+      "prob": "50%"
     },
-    "fran perez": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "rayo-vallecano"
+    "bernardo silva": {
+      "prob": "50%"
     },
-    "pelayo": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "rayo-vallecano"
+    "guler": {
+      "prob": "50%"
     },
-    "nteka": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "rayo-vallecano"
+    "camavinga": {
+      "prob": "40%"
     },
-    "vertrouwd": {
-      "titular": false,
-      "prob": "30%",
-      "equipo": "rayo-vallecano"
+    "carlos espi": {
+      "prob": "30%"
     },
-    "cardenas": {
-      "titular": false,
-      "prob": "5%",
-      "equipo": "rayo-vallecano"
+    "brahim": {
+      "prob": "30%"
     },
-    "de tomas": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "rayo-vallecano"
+    "a. f. carreras": {
+      "prob": "30%"
     },
-    "isi": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "rayo-vallecano"
+    "lunin": {
+      "prob": "30%"
     },
-    "luiz felipe": {
-      "titular": false,
-      "prob": "0%",
-      "equipo": "rayo-vallecano"
+    "endrick": {
+      "prob": "10%"
+    },
+    "mastantuono": {
+      "prob": "0%"
+    },
+    "mendy": {
+      "prob": "0%"
+    },
+    "asencio": {
+      "prob": "0%"
+    },
+    "militao": {
+      "prob": "0%"
+    },
+    "thiago": {
+      "prob": "0%"
+    },
+    "rodrygo": {
+      "prob": "0%"
+    },
+    "jon martin": {
+      "prob": "90%"
+    },
+    "remiro": {
+      "prob": "90%"
+    },
+    "oyarzabal": {
+      "prob": "80%"
+    },
+    "guedes": {
+      "prob": "70%"
+    },
+    "barrenetxea": {
+      "prob": "50%"
+    },
+    "l. sucic": {
+      "prob": "50%"
+    },
+    "carlos soler": {
+      "prob": "80%"
+    },
+    "turrientes": {
+      "prob": "50%"
+    },
+    "sergio gomez": {
+      "prob": "80%"
+    },
+    "zubeldia": {
+      "prob": "80%"
+    },
+    "aramburu": {
+      "prob": "80%"
+    },
+    "kubo": {
+      "prob": "50%"
+    },
+    "gorrotxategi": {
+      "prob": "50%"
+    },
+    "marin": {
+      "prob": "30%"
+    },
+    "zakharyan": {
+      "prob": "20%"
+    },
+    "oskarsson": {
+      "prob": "20%"
+    },
+    "beitia": {
+      "prob": "20%"
+    },
+    "aihen": {
+      "prob": "20%"
+    },
+    "ochieng": {
+      "prob": "10%"
+    },
+    "kita": {
+      "prob": "10%"
+    },
+    "pacheco": {
+      "prob": "10%"
+    },
+    "marrero": {
+      "prob": "10%"
+    },
+    "balda": {
+      "prob": "0%"
+    },
+    "goti": {
+      "prob": "0%"
+    },
+    "javi lopez": {
+      "prob": "0%"
+    },
+    "ruperez": {
+      "prob": "0%"
+    },
+    "karrikaburu": {
+      "prob": "0%"
+    },
+    "odriozola": {
+      "prob": "0%"
+    },
+    "kike salas": {
+      "prob": "90%"
+    },
+    "guridi": {
+      "prob": "70%"
+    },
+    "guillen": {
+      "prob": "50%"
+    },
+    "vlachodimos": {
+      "prob": "90%"
+    },
+    "sierra": {
+      "prob": "50%"
+    },
+    "suazo": {
+      "prob": "60%"
+    },
+    "sangante": {
+      "prob": "50%"
+    },
+    "agoume": {
+      "prob": "80%"
+    },
+    "peque": {
+      "prob": "50%"
+    },
+    "castrin": {
+      "prob": "50%"
+    },
+    "oso": {
+      "prob": "50%"
+    },
+    "julio diaz": {
+      "prob": "40%"
+    },
+    "carmona": {
+      "prob": "40%"
+    },
+    "manu bueno": {
+      "prob": "20%"
+    },
+    "marcao": {
+      "prob": "20%"
+    },
+    "fran gonzalez": {
+      "prob": "10%"
+    },
+    "alfon": {
+      "prob": "10%"
+    },
+    "ejuke": {
+      "prob": "10%"
+    },
+    "sow": {
+      "prob": "0%"
+    },
+    "jordan": {
+      "prob": "0%"
+    },
+    "pedrosa": {
+      "prob": "0%"
+    },
+    "gattoni": {
+      "prob": "0%"
+    },
+    "alberto": {
+      "prob": "0%"
+    },
+    "tarrega": {
+      "prob": "80%"
+    },
+    "dimitrievski": {
+      "prob": "90%"
+    },
+    "javi guerra": {
+      "prob": "90%"
+    },
+    "sato": {
+      "prob": "70%"
+    },
+    "danjuma": {
+      "prob": "50%"
+    },
+    "dieng": {
+      "prob": "50%"
+    },
+    "sadiq": {
+      "prob": "50%"
+    },
+    "de haas": {
+      "prob": "70%"
+    },
+    "gaya": {
+      "prob": "90%"
+    },
+    "foulquier": {
+      "prob": "50%"
+    },
+    "guido": {
+      "prob": "90%"
+    },
+    "pepelu": {
+      "prob": "50%"
+    },
+    "rioja": {
+      "prob": "50%"
+    },
+    "diakhaby": {
+      "prob": "50%"
+    },
+    "duro": {
+      "prob": "50%"
+    },
+    "ugrinic": {
+      "prob": "40%"
+    },
+    "almeida": {
+      "prob": "30%"
+    },
+    "iranzo": {
+      "prob": "10%"
+    },
+    "cordoba": {
+      "prob": "10%"
+    },
+    "jesus vazquez": {
+      "prob": "10%"
+    },
+    "raba": {
+      "prob": "10%"
+    },
+    "rivero": {
+      "prob": "10%"
+    },
+    "alberto mari": {
+      "prob": "0%"
+    },
+    "canos": {
+      "prob": "0%"
+    },
+    "copete": {
+      "prob": "0%"
+    },
+    "diego lopez": {
+      "prob": "0%"
+    },
+    "comesana": {
+      "prob": "90%"
+    },
+    "mikautadze": {
+      "prob": "60%"
+    },
+    "mourino": {
+      "prob": "60%"
+    },
+    "luiz junior": {
+      "prob": "60%"
+    },
+    "moleiro": {
+      "prob": "80%"
+    },
+    "pepe": {
+      "prob": "70%"
+    },
+    "gerard": {
+      "prob": "80%"
+    },
+    "pape gueye": {
+      "prob": "60%"
+    },
+    "pau navarro": {
+      "prob": "50%"
+    },
+    "veiga": {
+      "prob": "70%"
+    },
+    "foyth": {
+      "prob": "50%"
+    },
+    "carlos macia": {
+      "prob": "40%"
+    },
+    "freeman": {
+      "prob": "40%"
+    },
+    "ayoze": {
+      "prob": "40%"
+    },
+    "gulacsi": {
+      "prob": "40%"
+    },
+    "buchanan": {
+      "prob": "30%"
+    },
+    "oluwaseyi": {
+      "prob": "30%"
+    },
+    "s. cardona": {
+      "prob": "20%"
+    },
+    "logan costa": {
+      "prob": "20%"
+    },
+    "diatta": {
+      "prob": "10%"
+    },
+    "akhomach": {
+      "prob": "10%"
+    },
+    "kambwala": {
+      "prob": "10%"
+    },
+    "fores": {
+      "prob": "0%"
     }
   }
 }
