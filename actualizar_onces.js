@@ -3,26 +3,29 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 
 function normalizar(texto) {
-    return texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+    let sinSimbolos = texto.replace(/[^\p{L}\p{N}\s]/gu, '');
+    return sinSimbolos.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
+
+// Función para pausar el robot medio segundo y evitar bloqueos
+const delay = ms => new Promise(res => setTimeout(res, ms));
 
 async function extraerOnces() {
     let datosGlobales = { actualizado: new Date().toISOString(), players: {} };
-    console.log("⏳ Buscando equipos uno a uno (incluyendo ascendidos)...");
+    console.log("⏳ Buscando equipos (Limpiando emojis y solucionando URLs y bloqueos)...");
 
-    // Lista blindada con todos los equipos posibles (adiós errores 404)
+    // Hemos añadido las variantes oficiales que usa FútbolFantasy para los que fallaban
     const equipos = [
         'alaves', 'athletic', 'atletico', 'barcelona', 'betis', 'celta', 'deportivo', 
-        'espanyol', 'getafe', 'girona', 'las-palmas', 'leganes', 'mallorca', 'osasuna', 
-        'rayo', 'real-madrid', 'real-sociedad', 'sevilla', 'valencia', 'valladolid', 'villarreal'
+        'espanyol', 'getafe', 'girona', 'las-palmas', 'ud-las-palmas', 'leganes', 'cd-leganes', 
+        'mallorca', 'rcd-mallorca', 'osasuna', 'rayo-vallecano', 'real-madrid', 
+        'real-sociedad', 'sevilla', 'valencia', 'real-valladolid', 'villarreal'
     ];
 
-    let procesados = 0;
+    let procesados = [];
 
     for (let equipo of equipos) {
         let exito = false;
-        
-        // El script probará ambas rutas por si FútbolFantasy cambia la URL
         let urlsAProbar = [
             `https://www.futbolfantasy.com/laliga/equipos/${equipo}`,
             `https://www.futbolfantasy.com/equipos/${equipo}`
@@ -31,33 +34,50 @@ async function extraerOnces() {
         for (let url of urlsAProbar) {
             if (exito) break;
             try {
-                let respuesta = await axios.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+                let respuesta = await axios.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' } });
                 let $ = cheerio.load(respuesta.data);
                 let contador = 0;
 
                 $('.camiseta-wrapper').each((_, element) => {
-                    let nombre = $(element).attr('data-nombre') || $(element).find('.nombre, .truncate-name').first().text().trim();
-                    let prob = $(element).attr('data-probabilidad') || $(element).find('[class*="prob-"]').first().text().trim();
+                    let prob = $(element).attr('data-probabilidad') || $(element).find('[class*="prob-"], .prob').first().text().trim();
+                    let probNum = parseInt(prob.replace('%', ''), 10);
+                    if (isNaN(probNum)) return;
 
-                    if (nombre && prob) {
-                        datosGlobales.players[normalizar(nombre)] = { prob: `${parseInt(prob.replace('%', '')) || 0}%` };
-                        contador++;
-                    }
+                    let nombresRaw = [];
+                    $(element).find('.nombre, .jugador').each((i, el) => {
+                        let innerHtml = $(el).html() || '';
+                        let textConSeparador = innerHtml.replace(/<br\s*[\/]?>/gi, " | ");
+                        let textLimpioHTML = cheerio.load(textConSeparador).text();
+                        textLimpioHTML.split('|').forEach(n => nombresRaw.push(n.trim()));
+                    });
+
+                    nombresRaw.forEach(nombre => {
+                        let nombreLimpio = normalizar(nombre);
+                        if (nombreLimpio.length > 2 && !nombreLimpio.includes('%')) {
+                            let probActual = datosGlobales.players[nombreLimpio] ? parseInt(datosGlobales.players[nombreLimpio].prob) : 0;
+                            if (probNum > probActual) {
+                                datosGlobales.players[nombreLimpio] = { prob: `${probNum}%` };
+                                contador++;
+                            }
+                        }
+                    });
                 });
 
                 if (contador > 0) {
-                    console.log(`✅ Procesado: ${equipo} (${contador} jugadores)`);
-                    procesados++;
+                    console.log(`✅ Procesado: ${equipo} (${contador} jugadores detectados)`);
+                    procesados.push(equipo);
                     exito = true;
                 }
             } catch (e) {
-                // Ignoramos el 404 de la primera ruta y probamos la segunda en silencio
+                // Silencioso para intentar la siguiente variante
             }
         }
+        // Dormimos al robot 0.5 segundos para que la web no lo bloquee por ir muy rápido
+        if(exito) await delay(500); 
     }
 
     fs.writeFileSync('lineups.json', JSON.stringify(datosGlobales, null, 2), 'utf8');
-    console.log(`\n🎉 ¡Completado! ${procesados} equipos añadidos al archivo (Depor incluido).`);
+    console.log(`\n🎉 ¡Completado! ${procesados.length} equipos extraídos de forma segura.`);
 }
 
 extraerOnces();
