@@ -2,19 +2,24 @@ name: Motor Chakal App
 
 on:
   schedule:
-    - cron: '0 10 * * *' # Se ejecuta automáticamente a las 12:00h (hora de España)
-  workflow_dispatch: # Nos pone un botón para ejecutarlo a mano cuando queramos
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+
+# ESTO SOLUCIONA EL ERROR: Permiso explícito para que el bot pueda guardar
+permissions:
+  contents: write
 
 jobs:
   actualizar-datos:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      # ESTO SOLUCIONA EL WARNING: Usamos la versión v4 en lugar de la v3
+      - uses: actions/checkout@v4
       
       - name: Preparar motor de Chakal App
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           
       - name: Instalar herramientas
         run: npm install
