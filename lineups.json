@@ -1,8 +1,14 @@
 {
   "players": {
-    "99999": {
+    "javi rodriguez": {
+      "titular": true,
       "prob": "90%",
-      "titular": true
+      "lesion": false
+    },
+    "vinicius jr": {
+      "titular": true,
+      "prob": "100%",
+      "lesion": false
     }
   }
 }
