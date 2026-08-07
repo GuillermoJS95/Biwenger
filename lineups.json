@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-07T10:50:36.975Z",
+  "actualizado": "2026-08-07T10:58:27.924Z",
   "players": {
     "532": {
       "prob": "50%",
@@ -3480,84 +3480,104 @@
   },
   "matches": {
     "alaves": {
-      "opponent": "Rayo",
-      "isHome": false
+      "opponent": "Getafe",
+      "opponentKey": "getafe",
+      "isHome": true
     },
     "getafe": {
-      "opponent": "Racing",
-      "isHome": true
+      "opponent": "Alavés",
+      "opponentKey": "alaves",
+      "isHome": false
     },
     "sevilla": {
-      "opponent": "Athletic",
-      "isHome": false
-    },
-    "rayo-vallecano": {
-      "opponent": "Alavés",
+      "opponent": "Rayo",
+      "opponentKey": "rayo-vallecano",
       "isHome": true
     },
-    "racing": {
-      "opponent": "Getafe",
+    "rayo-vallecano": {
+      "opponent": "Sevilla",
+      "opponentKey": "sevilla",
       "isHome": false
     },
+    "racing": {
+      "opponent": "Villarreal",
+      "opponentKey": "villarreal",
+      "isHome": true
+    },
     "villarreal": {
-      "opponent": "Atlético",
+      "opponent": "Racing",
+      "opponentKey": "racing",
       "isHome": false
     },
     "espanyol": {
-      "opponent": "Real Madrid",
+      "opponent": "Levante",
+      "opponentKey": "levante",
       "isHome": true
     },
     "levante": {
-      "opponent": "Osasuna",
+      "opponent": "Espanyol",
+      "opponentKey": "espanyol",
       "isHome": false
     },
     "celta": {
-      "opponent": "Valencia",
-      "isHome": false
+      "opponent": "Osasuna",
+      "opponentKey": "osasuna",
+      "isHome": true
     },
     "osasuna": {
-      "opponent": "Levante",
-      "isHome": true
-    },
-    "deportivo": {
-      "opponent": "Málaga",
+      "opponent": "Celta",
+      "opponentKey": "celta",
       "isHome": false
     },
-    "elche": {
-      "opponent": "Barcelona",
+    "deportivo": {
+      "opponent": "Elche",
+      "opponentKey": "elche",
       "isHome": true
     },
+    "elche": {
+      "opponent": "Deportivo",
+      "opponentKey": "deportivo",
+      "isHome": false
+    },
     "atletico": {
-      "opponent": "Villarreal",
+      "opponent": "Málaga",
+      "opponentKey": "malaga",
       "isHome": true
     },
     "malaga": {
-      "opponent": "Deportivo",
-      "isHome": true
+      "opponent": "Atlético",
+      "opponentKey": "atletico",
+      "isHome": false
     },
     "valencia": {
-      "opponent": "Celta",
+      "opponent": "Betis",
+      "opponentKey": "betis",
       "isHome": true
     },
     "betis": {
-      "opponent": "Real Sociedad",
-      "isHome": true
-    },
-    "real-madrid": {
-      "opponent": "Espanyol",
+      "opponent": "Valencia",
+      "opponentKey": "valencia",
       "isHome": false
     },
+    "real-madrid": {
+      "opponent": "Real Sociedad",
+      "opponentKey": "real-sociedad",
+      "isHome": true
+    },
     "real-sociedad": {
-      "opponent": "Betis",
+      "opponent": "Real Madrid",
+      "opponentKey": "real-madrid",
       "isHome": false
     },
     "barcelona": {
-      "opponent": "Elche",
-      "isHome": false
+      "opponent": "Athletic",
+      "opponentKey": "athletic",
+      "isHome": true
     },
     "athletic": {
-      "opponent": "Sevilla",
-      "isHome": true
+      "opponent": "Barcelona",
+      "opponentKey": "barcelona",
+      "isHome": false
     }
   }
 }

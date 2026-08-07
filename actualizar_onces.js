@@ -7,7 +7,6 @@ function normalizar(texto) {
     return sinSimbolos.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
-// Diccionario para traducir el nombre de FútbolFantasy a nuestro ID de equipo
 function mapearEquipo(nombreFantasia) {
     const mapa = {
         'alaves': 'alaves', 'athletic': 'athletic', 'atletico': 'atletico', 'barcelona': 'barcelona',
@@ -27,12 +26,12 @@ async function extraerOnces() {
     console.log("⏳ Extrayendo calendario global de la jornada...");
     try {
         let resMatches = await axios.get('https://www.futbolfantasy.com/laliga/posibles-alineaciones', {
-            headers: { 'User-Agent': 'Mozilla/5.0' }
+            headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' }
         });
         let $m = cheerio.load(resMatches.data);
         
-        // Recorremos todos los partidos de la vista general
-        $m('.partido').each((i, el) => {
+        // Recorremos los contenedores correctos que me has pasado
+        $m('.partido-container .partido').each((i, el) => {
             let local = $m(el).find('.escudo.local').attr('alt');
             let visitante = $m(el).find('.escudo.visitante').attr('alt');
             
@@ -40,8 +39,9 @@ async function extraerOnces() {
                 let keyLocal = mapearEquipo(local);
                 let keyVisitante = mapearEquipo(visitante);
                 
-                if(keyLocal) datosGlobales.matches[keyLocal] = { opponent: visitante, isHome: true };
-                if(keyVisitante) datosGlobales.matches[keyVisitante] = { opponent: local, isHome: false };
+                // Guardamos tanto el nombre bonito como el ID interno para el escudo
+                if(keyLocal) datosGlobales.matches[keyLocal] = { opponent: visitante, opponentKey: keyVisitante, isHome: true };
+                if(keyVisitante) datosGlobales.matches[keyVisitante] = { opponent: local, opponentKey: keyLocal, isHome: false };
             }
         });
         console.log("✅ Calendario extraído correctamente.");
@@ -86,7 +86,7 @@ async function extraerOnces() {
                     if (nombreLimpio.length > 2 && !nombreLimpio.includes('%')) {
                         let probActual = datosGlobales.players[nombreLimpio] ? parseInt(datosGlobales.players[nombreLimpio].prob) : 0;
                         if (probNum > probActual) {
-                            // Ahora inyectamos la variable "team" al jugador
+                            // Ahora inyectamos el equipo al jugador
                             datosGlobales.players[nombreLimpio] = { prob: `${probNum}%`, team: equipo };
                             contador++;
                         }
