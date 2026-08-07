@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-07T10:46:29.075Z",
+  "actualizado": "2026-08-07T10:50:36.975Z",
   "players": {
     "532": {
       "prob": "50%",
@@ -3478,5 +3478,86 @@
       "team": "villarreal"
     }
   },
-  "matches": {}
+  "matches": {
+    "alaves": {
+      "opponent": "Rayo",
+      "isHome": false
+    },
+    "getafe": {
+      "opponent": "Racing",
+      "isHome": true
+    },
+    "sevilla": {
+      "opponent": "Athletic",
+      "isHome": false
+    },
+    "rayo-vallecano": {
+      "opponent": "Alavés",
+      "isHome": true
+    },
+    "racing": {
+      "opponent": "Getafe",
+      "isHome": false
+    },
+    "villarreal": {
+      "opponent": "Atlético",
+      "isHome": false
+    },
+    "espanyol": {
+      "opponent": "Real Madrid",
+      "isHome": true
+    },
+    "levante": {
+      "opponent": "Osasuna",
+      "isHome": false
+    },
+    "celta": {
+      "opponent": "Valencia",
+      "isHome": false
+    },
+    "osasuna": {
+      "opponent": "Levante",
+      "isHome": true
+    },
+    "deportivo": {
+      "opponent": "Málaga",
+      "isHome": false
+    },
+    "elche": {
+      "opponent": "Barcelona",
+      "isHome": true
+    },
+    "atletico": {
+      "opponent": "Villarreal",
+      "isHome": true
+    },
+    "malaga": {
+      "opponent": "Deportivo",
+      "isHome": true
+    },
+    "valencia": {
+      "opponent": "Celta",
+      "isHome": true
+    },
+    "betis": {
+      "opponent": "Real Sociedad",
+      "isHome": true
+    },
+    "real-madrid": {
+      "opponent": "Espanyol",
+      "isHome": false
+    },
+    "real-sociedad": {
+      "opponent": "Betis",
+      "isHome": false
+    },
+    "barcelona": {
+      "opponent": "Elche",
+      "isHome": false
+    },
+    "athletic": {
+      "opponent": "Sevilla",
+      "isHome": true
+    }
+  }
 }
