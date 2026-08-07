@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-07T10:58:27.924Z",
+  "actualizado": "2026-08-07T11:04:50.713Z",
   "players": {
     "532": {
       "prob": "50%",
@@ -3476,108 +3476,6 @@
     "willykambwala": {
       "prob": "10%",
       "team": "villarreal"
-    }
-  },
-  "matches": {
-    "alaves": {
-      "opponent": "Getafe",
-      "opponentKey": "getafe",
-      "isHome": true
-    },
-    "getafe": {
-      "opponent": "Alavés",
-      "opponentKey": "alaves",
-      "isHome": false
-    },
-    "sevilla": {
-      "opponent": "Rayo",
-      "opponentKey": "rayo-vallecano",
-      "isHome": true
-    },
-    "rayo-vallecano": {
-      "opponent": "Sevilla",
-      "opponentKey": "sevilla",
-      "isHome": false
-    },
-    "racing": {
-      "opponent": "Villarreal",
-      "opponentKey": "villarreal",
-      "isHome": true
-    },
-    "villarreal": {
-      "opponent": "Racing",
-      "opponentKey": "racing",
-      "isHome": false
-    },
-    "espanyol": {
-      "opponent": "Levante",
-      "opponentKey": "levante",
-      "isHome": true
-    },
-    "levante": {
-      "opponent": "Espanyol",
-      "opponentKey": "espanyol",
-      "isHome": false
-    },
-    "celta": {
-      "opponent": "Osasuna",
-      "opponentKey": "osasuna",
-      "isHome": true
-    },
-    "osasuna": {
-      "opponent": "Celta",
-      "opponentKey": "celta",
-      "isHome": false
-    },
-    "deportivo": {
-      "opponent": "Elche",
-      "opponentKey": "elche",
-      "isHome": true
-    },
-    "elche": {
-      "opponent": "Deportivo",
-      "opponentKey": "deportivo",
-      "isHome": false
-    },
-    "atletico": {
-      "opponent": "Málaga",
-      "opponentKey": "malaga",
-      "isHome": true
-    },
-    "malaga": {
-      "opponent": "Atlético",
-      "opponentKey": "atletico",
-      "isHome": false
-    },
-    "valencia": {
-      "opponent": "Betis",
-      "opponentKey": "betis",
-      "isHome": true
-    },
-    "betis": {
-      "opponent": "Valencia",
-      "opponentKey": "valencia",
-      "isHome": false
-    },
-    "real-madrid": {
-      "opponent": "Real Sociedad",
-      "opponentKey": "real-sociedad",
-      "isHome": true
-    },
-    "real-sociedad": {
-      "opponent": "Real Madrid",
-      "opponentKey": "real-madrid",
-      "isHome": false
-    },
-    "barcelona": {
-      "opponent": "Athletic",
-      "opponentKey": "athletic",
-      "isHome": true
-    },
-    "athletic": {
-      "opponent": "Barcelona",
-      "opponentKey": "barcelona",
-      "isHome": false
     }
   }
 }

@@ -7,49 +7,12 @@ function normalizar(texto) {
     return sinSimbolos.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
-function mapearEquipo(nombreFantasia) {
-    const mapa = {
-        'alaves': 'alaves', 'athletic': 'athletic', 'atletico': 'atletico', 'barcelona': 'barcelona',
-        'betis': 'betis', 'celta': 'celta', 'deportivo': 'deportivo', 'elche': 'elche',
-        'espanyol': 'espanyol', 'getafe': 'getafe', 'levante': 'levante', 'malaga': 'malaga',
-        'osasuna': 'osasuna', 'racing': 'racing', 'rayo': 'rayo-vallecano', 'real madrid': 'real-madrid',
-        'real sociedad': 'real-sociedad', 'sevilla': 'sevilla', 'valencia': 'valencia', 'villarreal': 'villarreal'
-    };
-    return mapa[normalizar(nombreFantasia)] || null;
-}
-
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 async function extraerOnces() {
-    let datosGlobales = { actualizado: new Date().toISOString(), players: {}, matches: {} };
-    
-    console.log("⏳ Extrayendo calendario global de la jornada...");
-    try {
-        let resMatches = await axios.get('https://www.futbolfantasy.com/laliga/posibles-alineaciones', {
-            headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' }
-        });
-        let $m = cheerio.load(resMatches.data);
-        
-        // Recorremos los contenedores correctos que me has pasado
-        $m('.partido-container .partido').each((i, el) => {
-            let local = $m(el).find('.escudo.local').attr('alt');
-            let visitante = $m(el).find('.escudo.visitante').attr('alt');
-            
-            if(local && visitante) {
-                let keyLocal = mapearEquipo(local);
-                let keyVisitante = mapearEquipo(visitante);
-                
-                // Guardamos tanto el nombre bonito como el ID interno para el escudo
-                if(keyLocal) datosGlobales.matches[keyLocal] = { opponent: visitante, opponentKey: keyVisitante, isHome: true };
-                if(keyVisitante) datosGlobales.matches[keyVisitante] = { opponent: local, opponentKey: keyLocal, isHome: false };
-            }
-        });
-        console.log("✅ Calendario extraído correctamente.");
-    } catch (e) {
-        console.log("⚠️ Error extrayendo calendario:", e.message);
-    }
+    let datosGlobales = { actualizado: new Date().toISOString(), players: {} };
+    console.log("⏳ Extrayendo jugadores y onces...");
 
-    console.log("\n⏳ Extrayendo jugadores por equipo...");
     const equipos = [
         'alaves', 'athletic', 'atletico', 'barcelona', 'betis', 'celta', 'deportivo', 
         'elche', 'espanyol', 'getafe', 'levante', 'malaga', 'osasuna', 'racing', 
@@ -86,7 +49,7 @@ async function extraerOnces() {
                     if (nombreLimpio.length > 2 && !nombreLimpio.includes('%')) {
                         let probActual = datosGlobales.players[nombreLimpio] ? parseInt(datosGlobales.players[nombreLimpio].prob) : 0;
                         if (probNum > probActual) {
-                            // Ahora inyectamos el equipo al jugador
+                            // Guardamos la probabilidad y la etiqueta de su equipo
                             datosGlobales.players[nombreLimpio] = { prob: `${probNum}%`, team: equipo };
                             contador++;
                         }
@@ -94,8 +57,7 @@ async function extraerOnces() {
                 });
             });
 
-            let rival = datosGlobales.matches[equipo] ? datosGlobales.matches[equipo].opponent : 'S.D.';
-            console.log(`✅ ${equipo}: ${contador} jugadores. Rival: ${rival}`);
+            console.log(`✅ ${equipo}: ${contador} jugadores extraídos.`);
             totalJugadores += contador;
             await delay(400); 
         } catch (e) {
