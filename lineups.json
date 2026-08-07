@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-06T18:06:40.223Z",
+  "actualizado": "2026-08-07T08:55:32.473Z",
   "players": {
     "532": {
       "prob": "50%"
@@ -859,6 +859,12 @@
     "ivanvillar": {
       "prob": "5%"
     },
+    "noubi": {
+      "prob": "80%"
+    },
+    "lucasnoubi": {
+      "prob": "80%"
+    },
     "aubameyang": {
       "prob": "70%"
     },
@@ -877,11 +883,14 @@
     "miguelloureiro": {
       "prob": "70%"
     },
-    "noubi": {
-      "prob": "80%"
+    "ximo": {
+      "prob": "60%"
     },
-    "lucasnoubi": {
-      "prob": "80%"
+    "ede": {
+      "prob": "60%"
+    },
+    "ximonavarro": {
+      "prob": "60%"
     },
     "amatucci": {
       "prob": "60%"
@@ -892,14 +901,32 @@
     "lorenzoamatucci": {
       "prob": "60%"
     },
-    "ximo": {
-      "prob": "60%"
+    "luismi": {
+      "prob": "70%"
     },
-    "ede": {
-      "prob": "60%"
+    "luismicruz": {
+      "prob": "70%"
     },
-    "ximonavarro": {
-      "prob": "60%"
+    "bil nsongo": {
+      "prob": "50%"
+    },
+    "yeremay": {
+      "prob": "50%"
+    },
+    "bilnsongo": {
+      "prob": "50%"
+    },
+    "altimira": {
+      "prob": "70%"
+    },
+    "adriaaltimira": {
+      "prob": "70%"
+    },
+    "leo roman": {
+      "prob": "80%"
+    },
+    "leoroman": {
+      "prob": "80%"
     },
     "quagliata": {
       "prob": "50%"
@@ -910,47 +937,20 @@
     "giacomoquagliata": {
       "prob": "50%"
     },
-    "leo roman": {
-      "prob": "80%"
-    },
-    "leoroman": {
-      "prob": "80%"
-    },
-    "altimira": {
-      "prob": "70%"
-    },
-    "adriaaltimira": {
-      "prob": "70%"
-    },
-    "yeremay": {
-      "prob": "60%"
-    },
-    "asp jensen": {
-      "prob": "60%"
-    },
-    "yeremayhernandez": {
-      "prob": "60%"
-    },
-    "luismi": {
-      "prob": "50%"
-    },
-    "bil nsongo": {
-      "prob": "50%"
-    },
-    "luismicruz": {
-      "prob": "50%"
-    },
-    "jonathanaspjensen": {
-      "prob": "50%"
-    },
     "diegovillares": {
       "prob": "50%"
     },
-    "bilnsongo": {
+    "yeremayhernandez": {
       "prob": "50%"
     },
     "brightede": {
       "prob": "50%"
+    },
+    "asp jensen": {
+      "prob": "40%"
+    },
+    "jonathanaspjensen": {
+      "prob": "40%"
     },
     "gijselhart": {
       "prob": "30%"
@@ -1000,56 +1000,23 @@
     "kevinsanchez": {
       "prob": "10%"
     },
-    "cepeda": {
-      "prob": "60%"
-    },
-    "martim neto": {
-      "prob": "60%"
-    },
-    "lucascepeda": {
-      "prob": "60%"
-    },
-    "sangare": {
-      "prob": "70%"
-    },
-    "bubasangare": {
-      "prob": "70%"
-    },
-    "affengruber": {
-      "prob": "90%"
-    },
-    "davidaffengruber": {
-      "prob": "90%"
-    },
-    "chust": {
-      "prob": "80%"
-    },
-    "victorchust": {
-      "prob": "80%"
-    },
     "valera": {
       "prob": "90%"
     },
     "germanvalera": {
       "prob": "90%"
     },
-    "bigas": {
-      "prob": "80%"
-    },
-    "pedrobigas": {
-      "prob": "80%"
-    },
-    "villar": {
-      "prob": "80%"
-    },
-    "gonzalovillar": {
-      "prob": "80%"
-    },
-    "aguado": {
+    "fer nino": {
       "prob": "70%"
     },
-    "marcaguado": {
+    "fernandonino": {
       "prob": "70%"
+    },
+    "dituro": {
+      "prob": "90%"
+    },
+    "matiasdituro": {
+      "prob": "90%"
     },
     "diangana": {
       "prob": "60%"
@@ -1060,17 +1027,50 @@
     "gradydiangana": {
       "prob": "60%"
     },
-    "dituro": {
-      "prob": "90%"
-    },
-    "matiasdituro": {
-      "prob": "90%"
-    },
-    "fer nino": {
+    "aguado": {
       "prob": "70%"
     },
-    "fernandonino": {
+    "marcaguado": {
       "prob": "70%"
+    },
+    "villar": {
+      "prob": "80%"
+    },
+    "gonzalovillar": {
+      "prob": "80%"
+    },
+    "bigas": {
+      "prob": "80%"
+    },
+    "pedrobigas": {
+      "prob": "80%"
+    },
+    "chust": {
+      "prob": "80%"
+    },
+    "victorchust": {
+      "prob": "80%"
+    },
+    "affengruber": {
+      "prob": "90%"
+    },
+    "davidaffengruber": {
+      "prob": "90%"
+    },
+    "sangare": {
+      "prob": "70%"
+    },
+    "bubasangare": {
+      "prob": "70%"
+    },
+    "cepeda": {
+      "prob": "60%"
+    },
+    "martim neto": {
+      "prob": "60%"
+    },
+    "lucascepeda": {
+      "prob": "60%"
     },
     "tetemorente": {
       "prob": "50%"
@@ -1120,65 +1120,17 @@
     "alejandroiturbe": {
       "prob": "10%"
     },
-    "calatrava": {
-      "prob": "70%"
-    },
-    "lexcalatrava": {
-      "prob": "70%"
-    },
-    "el hilali": {
-      "prob": "80%"
-    },
-    "omarelhilali": {
-      "prob": "80%"
-    },
     "hartman": {
       "prob": "70%"
     },
     "quilindschyhartman": {
       "prob": "70%"
     },
-    "cabrera": {
-      "prob": "95%"
-    },
-    "leandrocabrera": {
-      "prob": "95%"
-    },
-    "riedel": {
-      "prob": "60%"
-    },
-    "u nunez": {
-      "prob": "60%"
-    },
-    "clemensriedel": {
-      "prob": "60%"
-    },
-    "urko": {
-      "prob": "80%"
-    },
-    "urkogonzalezdezarate": {
-      "prob": "80%"
-    },
-    "edu exposito": {
+    "roberto": {
       "prob": "70%"
     },
-    "eduexposito": {
+    "robertofernandez1": {
       "prob": "70%"
-    },
-    "dolan": {
-      "prob": "50%"
-    },
-    "jofre": {
-      "prob": "50%"
-    },
-    "tyrhysdolan": {
-      "prob": "50%"
-    },
-    "dmitrovic": {
-      "prob": "95%"
-    },
-    "markodmitrovic": {
-      "prob": "95%"
     },
     "pere milla": {
       "prob": "50%"
@@ -1189,10 +1141,58 @@
     "peremilla": {
       "prob": "50%"
     },
-    "roberto": {
+    "dmitrovic": {
+      "prob": "95%"
+    },
+    "markodmitrovic": {
+      "prob": "95%"
+    },
+    "dolan": {
+      "prob": "50%"
+    },
+    "jofre": {
+      "prob": "50%"
+    },
+    "tyrhysdolan": {
+      "prob": "50%"
+    },
+    "edu exposito": {
       "prob": "70%"
     },
-    "robertofernandez1": {
+    "eduexposito": {
+      "prob": "70%"
+    },
+    "urko": {
+      "prob": "80%"
+    },
+    "urkogonzalezdezarate": {
+      "prob": "80%"
+    },
+    "riedel": {
+      "prob": "60%"
+    },
+    "u nunez": {
+      "prob": "60%"
+    },
+    "clemensriedel": {
+      "prob": "60%"
+    },
+    "cabrera": {
+      "prob": "95%"
+    },
+    "leandrocabrera": {
+      "prob": "95%"
+    },
+    "el hilali": {
+      "prob": "80%"
+    },
+    "omarelhilali": {
+      "prob": "80%"
+    },
+    "calatrava": {
+      "prob": "70%"
+    },
+    "lexcalatrava": {
       "prob": "70%"
     },
     "jofrecarreras": {
@@ -1252,49 +1252,16 @@
     "ngelfortuno": {
       "prob": "5%"
     },
+    "satriano": {
+      "prob": "90%"
+    },
+    "martinsatriano": {
+      "prob": "90%"
+    },
     "mario martin": {
       "prob": "80%"
     },
     "mariomartin": {
-      "prob": "80%"
-    },
-    "femenia": {
-      "prob": "60%"
-    },
-    "andres garcia": {
-      "prob": "60%"
-    },
-    "kikofemenia": {
-      "prob": "60%"
-    },
-    "abqar": {
-      "prob": "70%"
-    },
-    "abdelabqar": {
-      "prob": "70%"
-    },
-    "romero": {
-      "prob": "90%"
-    },
-    "zaidromero": {
-      "prob": "90%"
-    },
-    "boselli": {
-      "prob": "60%"
-    },
-    "sebastianboselli": {
-      "prob": "60%"
-    },
-    "davinchi": {
-      "prob": "80%"
-    },
-    "djene": {
-      "prob": "90%"
-    },
-    "dakonamdjene": {
-      "prob": "90%"
-    },
-    "terrats": {
       "prob": "80%"
     },
     "soria": {
@@ -1303,20 +1270,53 @@
     "davidsoria": {
       "prob": "95%"
     },
-    "uche": {
-      "prob": "70%"
+    "terrats": {
+      "prob": "80%"
     },
-    "chrisantusuche": {
-      "prob": "70%"
-    },
-    "satriano": {
+    "djene": {
       "prob": "90%"
     },
-    "martinsatriano": {
+    "dakonamdjene": {
       "prob": "90%"
+    },
+    "davinchi": {
+      "prob": "80%"
+    },
+    "boselli": {
+      "prob": "70%"
+    },
+    "sebastianboselli": {
+      "prob": "70%"
+    },
+    "romero": {
+      "prob": "90%"
+    },
+    "zaidromero": {
+      "prob": "90%"
+    },
+    "abqar": {
+      "prob": "70%"
+    },
+    "abdelabqar": {
+      "prob": "70%"
+    },
+    "femenia": {
+      "prob": "50%"
+    },
+    "mayoral": {
+      "prob": "50%"
+    },
+    "kikofemenia": {
+      "prob": "50%"
+    },
+    "andres garcia": {
+      "prob": "70%"
     },
     "andresgarcia": {
-      "prob": "50%"
+      "prob": "70%"
+    },
+    "borjamayoral": {
+      "prob": "40%"
     },
     "sazonov": {
       "prob": "30%"
@@ -1324,10 +1324,10 @@
     "sabasazonov": {
       "prob": "30%"
     },
-    "mayoral": {
+    "uche": {
       "prob": "30%"
     },
-    "borjamayoral": {
+    "chrisantusuche": {
       "prob": "30%"
     },
     "berrocal": {
@@ -2230,6 +2230,39 @@
     "unaimarrero": {
       "prob": "10%"
     },
+    "suazo": {
+      "prob": "60%"
+    },
+    "julio diaz": {
+      "prob": "60%"
+    },
+    "gabrielsuazo": {
+      "prob": "60%"
+    },
+    "rubenvargas": {
+      "prob": "70%"
+    },
+    "agoume": {
+      "prob": "80%"
+    },
+    "lucienagoume": {
+      "prob": "80%"
+    },
+    "sangante": {
+      "prob": "50%"
+    },
+    "castrin": {
+      "prob": "50%"
+    },
+    "arounasangante": {
+      "prob": "50%"
+    },
+    "vlachodimos": {
+      "prob": "90%"
+    },
+    "odysseasvlachodimos": {
+      "prob": "90%"
+    },
     "kike salas": {
       "prob": "90%"
     },
@@ -2257,11 +2290,8 @@
     "nicoguillen": {
       "prob": "50%"
     },
-    "vlachodimos": {
-      "prob": "90%"
-    },
-    "odysseasvlachodimos": {
-      "prob": "90%"
+    "isaacromero": {
+      "prob": "80%"
     },
     "sierra": {
       "prob": "50%"
@@ -2274,36 +2304,6 @@
     },
     "miguelsierra": {
       "prob": "50%"
-    },
-    "isaacromero": {
-      "prob": "80%"
-    },
-    "suazo": {
-      "prob": "60%"
-    },
-    "julio diaz": {
-      "prob": "60%"
-    },
-    "gabrielsuazo": {
-      "prob": "60%"
-    },
-    "sangante": {
-      "prob": "50%"
-    },
-    "castrin": {
-      "prob": "50%"
-    },
-    "arounasangante": {
-      "prob": "50%"
-    },
-    "agoume": {
-      "prob": "80%"
-    },
-    "lucienagoume": {
-      "prob": "80%"
-    },
-    "rubenvargas": {
-      "prob": "70%"
     },
     "andrescastrin": {
       "prob": "50%"
