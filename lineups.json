@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-25T13:13:51.493Z",
+  "actualizado": "2026-09-26T12:38:57.262Z",
   "players": {
     "tenaglia": {
       "prob": "80%",
@@ -957,19 +957,19 @@
       "prob": "0%",
       "teamId": 87
     },
-    "morante": {
-      "prob": "0%",
-      "teamId": 87
-    },
-    "joseantoniomorante": {
-      "prob": "0%",
-      "teamId": 87
-    },
     "manu gonzalez": {
       "prob": "0%",
       "teamId": 87
     },
     "manugonzalez": {
+      "prob": "0%",
+      "teamId": 87
+    },
+    "morante": {
+      "prob": "0%",
+      "teamId": 87
+    },
+    "joseantoniomorante": {
       "prob": "0%",
       "teamId": 87
     },
@@ -3181,10 +3181,6 @@
       "prob": "0%",
       "teamId": 15
     },
-    "thiagopitarch": {
-      "prob": "0%",
-      "teamId": 15
-    },
     "mendy": {
       "prob": "0%",
       "teamId": 15
@@ -3198,6 +3194,10 @@
       "teamId": 15
     },
     "deanhuijsen": {
+      "prob": "0%",
+      "teamId": 15
+    },
+    "thiagopitarch": {
       "prob": "0%",
       "teamId": 15
     },
@@ -3397,14 +3397,6 @@
       "prob": "0%",
       "teamId": 13
     },
-    "marchal": {
-      "prob": "0%",
-      "teamId": 13
-    },
-    "alexmarchal": {
-      "prob": "0%",
-      "teamId": 13
-    },
     "oskarsson": {
       "prob": "0%",
       "teamId": 13
@@ -3418,6 +3410,14 @@
       "teamId": 13
     },
     "alvaroodriozola": {
+      "prob": "0%",
+      "teamId": 13
+    },
+    "marchal": {
+      "prob": "0%",
+      "teamId": 13
+    },
+    "alexmarchal": {
       "prob": "0%",
       "teamId": 13
     },
