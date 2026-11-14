@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-13T15:53:42.501Z",
+  "actualizado": "2026-11-14T14:44:09.374Z",
   "players": {
     "tenaglia": {
       "prob": "90%",
@@ -981,6 +981,58 @@
       "prob": "0%",
       "teamId": 87
     },
+    "m alonso": {
+      "prob": "70%",
+      "teamId": 5
+    },
+    "marcosalonso": {
+      "prob": "70%",
+      "teamId": 5
+    },
+    "carreira": {
+      "prob": "50%",
+      "teamId": 5
+    },
+    "galan": {
+      "prob": "50%",
+      "teamId": 5
+    },
+    "sergiocarreira": {
+      "prob": "60%",
+      "teamId": 5
+    },
+    "moriba": {
+      "prob": "70%",
+      "teamId": 5
+    },
+    "ilaixmoriba": {
+      "prob": "70%",
+      "teamId": 5
+    },
+    "radu": {
+      "prob": "95%",
+      "teamId": 5
+    },
+    "andreiradu": {
+      "prob": "95%",
+      "teamId": 5
+    },
+    "javi rodriguez": {
+      "prob": "70%",
+      "teamId": 5
+    },
+    "javirodriguez": {
+      "prob": "70%",
+      "teamId": 5
+    },
+    "rueda": {
+      "prob": "50%",
+      "teamId": 5
+    },
+    "javirueda": {
+      "prob": "50%",
+      "teamId": 5
+    },
     "hugo alvarez": {
       "prob": "70%",
       "teamId": 5
@@ -1027,58 +1079,6 @@
     },
     "pabloduran": {
       "prob": "50%",
-      "teamId": 5
-    },
-    "rueda": {
-      "prob": "50%",
-      "teamId": 5
-    },
-    "carreira": {
-      "prob": "60%",
-      "teamId": 5
-    },
-    "javirueda": {
-      "prob": "50%",
-      "teamId": 5
-    },
-    "javi rodriguez": {
-      "prob": "70%",
-      "teamId": 5
-    },
-    "javirodriguez": {
-      "prob": "70%",
-      "teamId": 5
-    },
-    "radu": {
-      "prob": "95%",
-      "teamId": 5
-    },
-    "andreiradu": {
-      "prob": "95%",
-      "teamId": 5
-    },
-    "moriba": {
-      "prob": "70%",
-      "teamId": 5
-    },
-    "ilaixmoriba": {
-      "prob": "70%",
-      "teamId": 5
-    },
-    "galan": {
-      "prob": "50%",
-      "teamId": 5
-    },
-    "sergiocarreira": {
-      "prob": "60%",
-      "teamId": 5
-    },
-    "m alonso": {
-      "prob": "70%",
-      "teamId": 5
-    },
-    "marcosalonso": {
-      "prob": "70%",
       "teamId": 5
     },
     "javigalan": {
@@ -3249,56 +3249,36 @@
       "prob": "0%",
       "teamId": 15
     },
-    "fort": {
-      "prob": "50%",
-      "teamId": 13
-    },
-    "aramburu": {
-      "prob": "50%",
-      "teamId": 13
-    },
-    "hectorfort": {
-      "prob": "50%",
-      "teamId": 13
-    },
-    "oyarzabal": {
-      "prob": "80%",
-      "teamId": 13
-    },
-    "mikeloyarzabal": {
-      "prob": "80%",
-      "teamId": 13
-    },
-    "oskarsson": {
+    "sergio gomez": {
       "prob": "70%",
       "teamId": 13
     },
-    "orristeinnskarsson": {
+    "sergiogomez": {
       "prob": "70%",
       "teamId": 13
     },
-    "carlos soler": {
+    "gorrotxategi": {
       "prob": "70%",
       "teamId": 13
     },
-    "carlossoler": {
+    "jongorrotxategi": {
       "prob": "70%",
       "teamId": 13
     },
-    "jon martin": {
-      "prob": "90%",
-      "teamId": 13
-    },
-    "jonmartin": {
-      "prob": "90%",
-      "teamId": 13
-    },
-    "guedes": {
+    "l sucic": {
       "prob": "70%",
       "teamId": 13
     },
-    "goncaloguedes": {
+    "lukasucic": {
       "prob": "70%",
+      "teamId": 13
+    },
+    "remiro": {
+      "prob": "95%",
+      "teamId": 13
+    },
+    "alexremiro": {
+      "prob": "95%",
       "teamId": 13
     },
     "zubeldia": {
@@ -3313,36 +3293,56 @@
       "prob": "60%",
       "teamId": 13
     },
-    "remiro": {
-      "prob": "95%",
+    "fort": {
+      "prob": "50%",
       "teamId": 13
     },
-    "alexremiro": {
-      "prob": "95%",
+    "aramburu": {
+      "prob": "50%",
       "teamId": 13
     },
-    "l sucic": {
+    "hectorfort": {
+      "prob": "50%",
+      "teamId": 13
+    },
+    "guedes": {
       "prob": "70%",
       "teamId": 13
     },
-    "lukasucic": {
+    "goncaloguedes": {
       "prob": "70%",
       "teamId": 13
     },
-    "gorrotxategi": {
+    "jon martin": {
+      "prob": "90%",
+      "teamId": 13
+    },
+    "jonmartin": {
+      "prob": "90%",
+      "teamId": 13
+    },
+    "carlos soler": {
       "prob": "70%",
       "teamId": 13
     },
-    "jongorrotxategi": {
+    "carlossoler": {
       "prob": "70%",
       "teamId": 13
     },
-    "sergio gomez": {
+    "oskarsson": {
       "prob": "70%",
       "teamId": 13
     },
-    "sergiogomez": {
+    "orristeinnskarsson": {
       "prob": "70%",
+      "teamId": 13
+    },
+    "oyarzabal": {
+      "prob": "80%",
+      "teamId": 13
+    },
+    "mikeloyarzabal": {
+      "prob": "80%",
       "teamId": 13
     },
     "jonaramburu": {
