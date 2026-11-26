@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-25T18:23:44.697Z",
+  "actualizado": "2026-11-26T18:05:29.462Z",
   "players": {
     "tenaglia": {
       "prob": "90%",
@@ -9,67 +9,19 @@
       "prob": "90%",
       "teamId": 91
     },
-    "jonny": {
-      "prob": "60%",
-      "teamId": 91
-    },
-    "valentini": {
-      "prob": "50%",
-      "teamId": 91
-    },
-    "jonnycastro": {
-      "prob": "60%",
-      "teamId": 91
-    },
-    "rebbach": {
-      "prob": "50%",
-      "teamId": 91
-    },
-    "youssef": {
-      "prob": "50%",
-      "teamId": 91
-    },
-    "abderebbach": {
-      "prob": "50%",
-      "teamId": 91
-    },
-    "koski": {
-      "prob": "90%",
-      "teamId": 91
-    },
-    "villekoski": {
-      "prob": "90%",
-      "teamId": 91
-    },
-    "sivera": {
-      "prob": "95%",
-      "teamId": 91
-    },
-    "antoniosivera": {
-      "prob": "95%",
-      "teamId": 91
-    },
-    "toni martinez": {
+    "ibanez": {
       "prob": "80%",
       "teamId": 91
     },
-    "antoniomartinez": {
+    "pabloibanez": {
       "prob": "80%",
       "teamId": 91
     },
-    "blanco": {
+    "angel perez": {
       "prob": "90%",
       "teamId": 91
     },
-    "antonioblanco": {
-      "prob": "90%",
-      "teamId": 91
-    },
-    "boye": {
-      "prob": "90%",
-      "teamId": 91
-    },
-    "lucasboye": {
+    "angelperez1": {
       "prob": "90%",
       "teamId": 91
     },
@@ -85,20 +37,68 @@
       "prob": "50%",
       "teamId": 91
     },
-    "angel perez": {
+    "boye": {
       "prob": "90%",
       "teamId": 91
     },
-    "angelperez1": {
+    "lucasboye": {
       "prob": "90%",
       "teamId": 91
     },
-    "ibanez": {
+    "blanco": {
+      "prob": "90%",
+      "teamId": 91
+    },
+    "antonioblanco": {
+      "prob": "90%",
+      "teamId": 91
+    },
+    "toni martinez": {
       "prob": "80%",
       "teamId": 91
     },
-    "pabloibanez": {
+    "antoniomartinez": {
       "prob": "80%",
+      "teamId": 91
+    },
+    "sivera": {
+      "prob": "95%",
+      "teamId": 91
+    },
+    "antoniosivera": {
+      "prob": "95%",
+      "teamId": 91
+    },
+    "koski": {
+      "prob": "90%",
+      "teamId": 91
+    },
+    "villekoski": {
+      "prob": "90%",
+      "teamId": 91
+    },
+    "rebbach": {
+      "prob": "50%",
+      "teamId": 91
+    },
+    "youssef": {
+      "prob": "50%",
+      "teamId": 91
+    },
+    "abderebbach": {
+      "prob": "50%",
+      "teamId": 91
+    },
+    "jonny": {
+      "prob": "60%",
+      "teamId": 91
+    },
+    "valentini": {
+      "prob": "50%",
+      "teamId": 91
+    },
+    "jonnycastro": {
+      "prob": "60%",
       "teamId": 91
     },
     "youssefenriquez": {
@@ -114,18 +114,18 @@
       "teamId": 91
     },
     "alena": {
-      "prob": "30%",
+      "prob": "40%",
       "teamId": 91
     },
     "carlesalena": {
-      "prob": "30%",
+      "prob": "40%",
       "teamId": 91
     },
-    "protesoni": {
+    "mariano": {
       "prob": "20%",
       "teamId": 91
     },
-    "carlosbenavidez": {
+    "marianodiaz": {
       "prob": "20%",
       "teamId": 91
     },
@@ -134,14 +134,6 @@
       "teamId": 91
     },
     "miguelrodriguez1": {
-      "prob": "10%",
-      "teamId": 91
-    },
-    "mariano": {
-      "prob": "10%",
-      "teamId": 91
-    },
-    "marianodiaz": {
       "prob": "10%",
       "teamId": 91
     },
@@ -169,6 +161,14 @@
       "prob": "0%",
       "teamId": 91
     },
+    "protesoni": {
+      "prob": "0%",
+      "teamId": 91
+    },
+    "carlosbenavidez": {
+      "prob": "0%",
+      "teamId": 91
+    },
     "novoa": {
       "prob": "0%",
       "teamId": 91
@@ -182,6 +182,14 @@
       "teamId": 91
     },
     "facundogarces": {
+      "prob": "0%",
+      "teamId": 91
+    },
+    "mikel rodriguez": {
+      "prob": "0%",
+      "teamId": 91
+    },
+    "mikelrodriguez": {
       "prob": "0%",
       "teamId": 91
     },
@@ -241,15 +249,15 @@
       "prob": "50%",
       "teamId": 1
     },
-    "gerenabarrena": {
-      "prob": "50%",
-      "teamId": 1
-    },
     "canales": {
       "prob": "90%",
       "teamId": 812
     },
-    "benatgerenabarrena": {
+    "gerenabarrena": {
+      "prob": "50%",
+      "teamId": 1
+    },
+    "peiocanales": {
       "prob": "50%",
       "teamId": 1
     },
@@ -270,11 +278,11 @@
       "teamId": 1
     },
     "berenguer": {
-      "prob": "80%",
+      "prob": "70%",
       "teamId": 1
     },
     "alexberenguer": {
-      "prob": "80%",
+      "prob": "70%",
       "teamId": 1
     },
     "i williams": {
@@ -285,7 +293,7 @@
       "prob": "90%",
       "teamId": 1
     },
-    "peiocanales": {
+    "benatgerenabarrena": {
       "prob": "50%",
       "teamId": 1
     },
@@ -293,16 +301,16 @@
       "prob": "50%",
       "teamId": 1
     },
-    "yerayalvarez": {
+    "navarro": {
       "prob": "50%",
       "teamId": 1
     },
-    "navarro": {
-      "prob": "40%",
+    "robertnavarro": {
+      "prob": "50%",
       "teamId": 1
     },
-    "robertnavarro": {
-      "prob": "40%",
+    "yerayalvarez": {
+      "prob": "50%",
       "teamId": 1
     },
     "jauregizar": {
@@ -393,35 +401,63 @@
       "prob": "0%",
       "teamId": 1
     },
-    "oblak": {
-      "prob": "95%",
+    "giuliano": {
+      "prob": "90%",
       "teamId": 2
     },
-    "janoblak": {
-      "prob": "95%",
+    "giulianosimeone": {
+      "prob": "90%",
       "teamId": 2
     },
-    "cardoso": {
-      "prob": "0%",
-      "teamId": 17
-    },
-    "hjulmand": {
-      "prob": "40%",
-      "teamId": 2
-    },
-    "koke": {
+    "pubill": {
       "prob": "50%",
       "teamId": 2
     },
-    "johnnycardoso": {
+    "le normand": {
       "prob": "50%",
       "teamId": 2
     },
-    "m llorente": {
+    "marcpubill": {
+      "prob": "50%",
+      "teamId": 2
+    },
+    "alvarez": {
+      "prob": "70%",
+      "teamId": 2
+    },
+    "julianlvarez": {
+      "prob": "70%",
+      "teamId": 2
+    },
+    "baena": {
       "prob": "80%",
       "teamId": 2
     },
-    "marcosllorente": {
+    "lexbaena": {
+      "prob": "80%",
+      "teamId": 2
+    },
+    "hancko": {
+      "prob": "90%",
+      "teamId": 2
+    },
+    "davidhancko": {
+      "prob": "90%",
+      "teamId": 2
+    },
+    "kangin lee": {
+      "prob": "70%",
+      "teamId": 2
+    },
+    "leekangin": {
+      "prob": "70%",
+      "teamId": 2
+    },
+    "grimaldo": {
+      "prob": "80%",
+      "teamId": 2
+    },
+    "alexgrimaldo": {
       "prob": "80%",
       "teamId": 2
     },
@@ -433,92 +469,56 @@
       "prob": "80%",
       "teamId": 2
     },
-    "grimaldo": {
+    "m llorente": {
       "prob": "80%",
       "teamId": 2
     },
-    "alexgrimaldo": {
+    "marcosllorente": {
       "prob": "80%",
       "teamId": 2
     },
-    "kangin lee": {
-      "prob": "70%",
-      "teamId": 2
-    },
-    "leekangin": {
-      "prob": "70%",
-      "teamId": 2
-    },
-    "hancko": {
-      "prob": "90%",
-      "teamId": 2
-    },
-    "davidhancko": {
-      "prob": "90%",
-      "teamId": 2
-    },
-    "baena": {
-      "prob": "80%",
-      "teamId": 2
-    },
-    "lexbaena": {
-      "prob": "80%",
-      "teamId": 2
-    },
-    "alvarez": {
-      "prob": "70%",
-      "teamId": 2
-    },
-    "julianlvarez": {
-      "prob": "70%",
-      "teamId": 2
-    },
-    "pubill": {
+    "hjulmand": {
       "prob": "50%",
       "teamId": 2
     },
-    "le normand": {
-      "prob": "40%",
-      "teamId": 2
+    "cardoso": {
+      "prob": "0%",
+      "teamId": 17
     },
-    "romero": {
-      "prob": "60%",
-      "teamId": 19
-    },
-    "marcpubill": {
+    "koke": {
       "prob": "50%",
       "teamId": 2
     },
-    "giuliano": {
-      "prob": "80%",
+    "mortenhjulmand": {
+      "prob": "50%",
       "teamId": 2
     },
-    "giulianosimeone": {
-      "prob": "80%",
+    "oblak": {
+      "prob": "95%",
+      "teamId": 2
+    },
+    "janoblak": {
+      "prob": "95%",
       "teamId": 2
     },
     "kokeresurreccion": {
       "prob": "50%",
       "teamId": 2
     },
-    "cristianromero": {
-      "prob": "40%",
-      "teamId": 2
-    },
-    "mortenhjulmand": {
-      "prob": "40%",
+    "johnnycardoso": {
+      "prob": "50%",
       "teamId": 2
     },
     "robinlenormand": {
-      "prob": "40%",
+      "prob": "50%",
       "teamId": 2
     },
     "jonathan david": {
-      "prob": "30%",
+      "prob": "40%",
       "teamId": 2
     },
     "jonathandavid": {
-      "prob": "30%",
+      "prob": "40%",
       "teamId": 2
     },
     "sorloth": {
@@ -562,10 +562,18 @@
       "teamId": 2
     },
     "vargas": {
-      "prob": "60%",
+      "prob": "70%",
       "teamId": 17
     },
     "obedvargas": {
+      "prob": "0%",
+      "teamId": 2
+    },
+    "romero": {
+      "prob": "70%",
+      "teamId": 19
+    },
+    "cristianromero": {
       "prob": "0%",
       "teamId": 2
     },
@@ -577,84 +585,8 @@
       "prob": "0%",
       "teamId": 2
     },
-    "gordon": {
-      "prob": "50%",
-      "teamId": 3
-    },
-    "adeyemi": {
-      "prob": "50%",
-      "teamId": 3
-    },
-    "anthonygordon": {
-      "prob": "50%",
-      "teamId": 3
-    },
-    "eric garcia": {
-      "prob": "80%",
-      "teamId": 3
-    },
-    "ericgarcia": {
-      "prob": "80%",
-      "teamId": 3
-    },
-    "cubarsi": {
-      "prob": "80%",
-      "teamId": 3
-    },
-    "paucubarsi": {
-      "prob": "80%",
-      "teamId": 3
-    },
-    "f de jong": {
-      "prob": "50%",
-      "teamId": 3
-    },
-    "bernal": {
-      "prob": "30%",
-      "teamId": 87
-    },
-    "frenkiedejong": {
-      "prob": "50%",
-      "teamId": 3
-    },
-    "yamal": {
+    "raphinha": {
       "prob": "90%",
-      "teamId": 3
-    },
-    "lamineyamal": {
-      "prob": "90%",
-      "teamId": 3
-    },
-    "cancelo": {
-      "prob": "70%",
-      "teamId": 3
-    },
-    "joaocancelo": {
-      "prob": "70%",
-      "teamId": 3
-    },
-    "olmo": {
-      "prob": "80%",
-      "teamId": 3
-    },
-    "daniolmo": {
-      "prob": "80%",
-      "teamId": 3
-    },
-    "pedri": {
-      "prob": "70%",
-      "teamId": 3
-    },
-    "pedrigonzalez": {
-      "prob": "70%",
-      "teamId": 3
-    },
-    "martin": {
-      "prob": "70%",
-      "teamId": 3
-    },
-    "gerardmartin": {
-      "prob": "70%",
       "teamId": 3
     },
     "joan garcia": {
@@ -665,39 +597,99 @@
       "prob": "95%",
       "teamId": 3
     },
-    "raphinha": {
+    "martin": {
+      "prob": "60%",
+      "teamId": 3
+    },
+    "f de jong": {
+      "prob": "50%",
+      "teamId": 3
+    },
+    "gerardmartin": {
+      "prob": "60%",
+      "teamId": 3
+    },
+    "pedri": {
       "prob": "80%",
       "teamId": 3
     },
+    "pedrigonzalez": {
+      "prob": "80%",
+      "teamId": 3
+    },
+    "olmo": {
+      "prob": "80%",
+      "teamId": 3
+    },
+    "daniolmo": {
+      "prob": "80%",
+      "teamId": 3
+    },
+    "cancelo": {
+      "prob": "80%",
+      "teamId": 3
+    },
+    "joaocancelo": {
+      "prob": "80%",
+      "teamId": 3
+    },
+    "yamal": {
+      "prob": "90%",
+      "teamId": 3
+    },
+    "lamineyamal": {
+      "prob": "90%",
+      "teamId": 3
+    },
+    "bernal": {
+      "prob": "30%",
+      "teamId": 87
+    },
     "marcbernal": {
+      "prob": "70%",
+      "teamId": 3
+    },
+    "cubarsi": {
+      "prob": "80%",
+      "teamId": 3
+    },
+    "paucubarsi": {
+      "prob": "80%",
+      "teamId": 3
+    },
+    "eric garcia": {
+      "prob": "80%",
+      "teamId": 3
+    },
+    "ericgarcia": {
+      "prob": "80%",
+      "teamId": 3
+    },
+    "gordon": {
+      "prob": "70%",
+      "teamId": 3
+    },
+    "anthonygordon": {
+      "prob": "70%",
+      "teamId": 3
+    },
+    "frenkiedejong": {
       "prob": "50%",
+      "teamId": 3
+    },
+    "adeyemi": {
+      "prob": "40%",
       "teamId": 3
     },
     "karimadeyemi": {
-      "prob": "50%",
+      "prob": "40%",
       "teamId": 3
     },
     "kounde": {
-      "prob": "40%",
+      "prob": "30%",
       "teamId": 3
     },
     "juleskounde": {
-      "prob": "40%",
-      "teamId": 3
-    },
-    "a christensen": {
-      "prob": "30%",
-      "teamId": 3
-    },
-    "andreaschristensen": {
-      "prob": "30%",
-      "teamId": 3
-    },
-    "balde": {
-      "prob": "30%",
-      "teamId": 3
-    },
-    "alejandrobalde": {
       "prob": "30%",
       "teamId": 3
     },
@@ -723,6 +715,22 @@
     },
     "gabrieljesus": {
       "prob": "20%",
+      "teamId": 3
+    },
+    "a christensen": {
+      "prob": "10%",
+      "teamId": 3
+    },
+    "andreaschristensen": {
+      "prob": "10%",
+      "teamId": 3
+    },
+    "balde": {
+      "prob": "10%",
+      "teamId": 3
+    },
+    "alejandrobalde": {
+      "prob": "10%",
       "teamId": 3
     },
     "livakovic": {
@@ -781,12 +789,64 @@
       "prob": "0%",
       "teamId": 3
     },
-    "valles": {
-      "prob": "95%",
+    "antony": {
+      "prob": "60%",
       "teamId": 87
     },
-    "alvarovalles": {
-      "prob": "95%",
+    "ruibal": {
+      "prob": "40%",
+      "teamId": 87
+    },
+    "abde": {
+      "prob": "60%",
+      "teamId": 87
+    },
+    "riquelme": {
+      "prob": "40%",
+      "teamId": 87
+    },
+    "abdeezzalzouli": {
+      "prob": "60%",
+      "teamId": 87
+    },
+    "natan": {
+      "prob": "80%",
+      "teamId": 87
+    },
+    "fornals": {
+      "prob": "80%",
+      "teamId": 87
+    },
+    "pablofornals": {
+      "prob": "80%",
+      "teamId": 87
+    },
+    "fran garcia": {
+      "prob": "60%",
+      "teamId": 87
+    },
+    "junior": {
+      "prob": "30%",
+      "teamId": 87
+    },
+    "frangarcia": {
+      "prob": "60%",
+      "teamId": 87
+    },
+    "bartra": {
+      "prob": "80%",
+      "teamId": 87
+    },
+    "marcbartra": {
+      "prob": "80%",
+      "teamId": 87
+    },
+    "marc roca": {
+      "prob": "80%",
+      "teamId": 87
+    },
+    "marcroca": {
+      "prob": "80%",
       "teamId": 87
     },
     "bellerin": {
@@ -797,12 +857,20 @@
       "prob": "70%",
       "teamId": 87
     },
+    "valles": {
+      "prob": "95%",
+      "teamId": 87
+    },
+    "alvarovalles": {
+      "prob": "95%",
+      "teamId": 87
+    },
     "isco": {
-      "prob": "80%",
+      "prob": "70%",
       "teamId": 87
     },
     "iscoalarcon": {
-      "prob": "80%",
+      "prob": "70%",
       "teamId": 87
     },
     "cucho": {
@@ -817,64 +885,16 @@
       "prob": "50%",
       "teamId": 87
     },
-    "marc roca": {
-      "prob": "70%",
-      "teamId": 87
-    },
-    "marcroca": {
-      "prob": "70%",
-      "teamId": 87
-    },
-    "antony": {
-      "prob": "80%",
-      "teamId": 87
-    },
-    "abde": {
-      "prob": "80%",
-      "teamId": 87
-    },
-    "abdeezzalzouli": {
-      "prob": "80%",
-      "teamId": 87
-    },
-    "natan": {
-      "prob": "80%",
-      "teamId": 87
-    },
-    "fran garcia": {
-      "prob": "80%",
-      "teamId": 87
-    },
-    "frangarcia": {
-      "prob": "80%",
-      "teamId": 87
-    },
-    "bartra": {
-      "prob": "70%",
-      "teamId": 87
-    },
-    "marcbartra": {
-      "prob": "70%",
-      "teamId": 87
-    },
-    "fornals": {
-      "prob": "70%",
-      "teamId": 87
-    },
-    "pablofornals": {
-      "prob": "70%",
+    "aitorruibal": {
+      "prob": "40%",
       "teamId": 87
     },
     "troyparrott": {
       "prob": "40%",
       "teamId": 87
     },
-    "ruibal": {
-      "prob": "30%",
-      "teamId": 87
-    },
-    "aitorruibal": {
-      "prob": "30%",
+    "rodrigoriquelme": {
+      "prob": "40%",
       "teamId": 87
     },
     "facundobernal": {
@@ -882,6 +902,10 @@
       "teamId": 87
     },
     "ngelortiz": {
+      "prob": "30%",
+      "teamId": 87
+    },
+    "juniorfirpo": {
       "prob": "30%",
       "teamId": 87
     },
@@ -898,22 +922,6 @@
       "teamId": 87
     },
     "nelsondeossa": {
-      "prob": "20%",
-      "teamId": 87
-    },
-    "riquelme": {
-      "prob": "20%",
-      "teamId": 87
-    },
-    "rodrigoriquelme": {
-      "prob": "20%",
-      "teamId": 87
-    },
-    "junior": {
-      "prob": "20%",
-      "teamId": 87
-    },
-    "juniorfirpo": {
       "prob": "20%",
       "teamId": 87
     },
@@ -981,8 +989,56 @@
       "prob": "0%",
       "teamId": 87
     },
-    "carreira": {
+    "jutgla": {
       "prob": "50%",
+      "teamId": 5
+    },
+    "duran": {
+      "prob": "50%",
+      "teamId": 5
+    },
+    "ferranjutgla": {
+      "prob": "50%",
+      "teamId": 5
+    },
+    "swedberg": {
+      "prob": "70%",
+      "teamId": 5
+    },
+    "williotswedberg": {
+      "prob": "70%",
+      "teamId": 5
+    },
+    "caceres": {
+      "prob": "70%",
+      "teamId": 5
+    },
+    "sebastiancaceres": {
+      "prob": "70%",
+      "teamId": 5
+    },
+    "hugo alvarez": {
+      "prob": "70%",
+      "teamId": 5
+    },
+    "hugolvarez": {
+      "prob": "70%",
+      "teamId": 5
+    },
+    "febas": {
+      "prob": "60%",
+      "teamId": 5
+    },
+    "antanon": {
+      "prob": "30%",
+      "teamId": 5
+    },
+    "aleixfebas": {
+      "prob": "60%",
+      "teamId": 5
+    },
+    "carreira": {
+      "prob": "60%",
       "teamId": 5
     },
     "rueda": {
@@ -994,11 +1050,11 @@
       "teamId": 5
     },
     "javi rodriguez": {
-      "prob": "80%",
+      "prob": "70%",
       "teamId": 5
     },
     "javirodriguez": {
-      "prob": "80%",
+      "prob": "70%",
       "teamId": 5
     },
     "radu": {
@@ -1010,86 +1066,34 @@
       "teamId": 5
     },
     "moriba": {
-      "prob": "70%",
+      "prob": "80%",
       "teamId": 5
     },
     "ilaixmoriba": {
-      "prob": "70%",
+      "prob": "80%",
       "teamId": 5
     },
     "galan": {
-      "prob": "50%",
+      "prob": "70%",
       "teamId": 5
     },
     "javigalan": {
-      "prob": "50%",
+      "prob": "70%",
       "teamId": 5
     },
     "m alonso": {
-      "prob": "80%",
+      "prob": "60%",
       "teamId": 5
     },
-    "marcosalonso": {
-      "prob": "80%",
-      "teamId": 5
-    },
-    "hugo alvarez": {
-      "prob": "50%",
-      "teamId": 5
-    },
-    "aspas": {
+    "a nunez": {
       "prob": "40%",
       "teamId": 5
     },
-    "hugolvarez": {
-      "prob": "50%",
-      "teamId": 5
-    },
-    "caceres": {
-      "prob": "50%",
-      "teamId": 5
-    },
-    "starfelt": {
-      "prob": "50%",
-      "teamId": 5
-    },
-    "sebastiancaceres": {
-      "prob": "50%",
-      "teamId": 5
-    },
-    "swedberg": {
-      "prob": "50%",
-      "teamId": 5
-    },
-    "williotswedberg": {
-      "prob": "50%",
-      "teamId": 5
-    },
-    "duran": {
+    "marcosalonso": {
       "prob": "60%",
-      "teamId": 5
-    },
-    "jutgla": {
-      "prob": "50%",
       "teamId": 5
     },
     "pabloduran": {
-      "prob": "60%",
-      "teamId": 5
-    },
-    "febas": {
-      "prob": "70%",
-      "teamId": 5
-    },
-    "aleixfebas": {
-      "prob": "70%",
-      "teamId": 5
-    },
-    "ferranjutgla": {
-      "prob": "50%",
-      "teamId": 5
-    },
-    "carlstarfelt": {
       "prob": "50%",
       "teamId": 5
     },
@@ -1105,32 +1109,44 @@
       "prob": "40%",
       "teamId": 5
     },
-    "iagoaspas": {
+    "lvaronunez": {
       "prob": "40%",
       "teamId": 5
     },
-    "antanon": {
-      "prob": "30%",
+    "aspas": {
+      "prob": "40%",
+      "teamId": 5
+    },
+    "iagoaspas": {
+      "prob": "40%",
       "teamId": 5
     },
     "andresantanon": {
       "prob": "30%",
       "teamId": 5
     },
-    "a nunez": {
+    "starfelt": {
       "prob": "30%",
       "teamId": 5
     },
-    "lvaronunez": {
+    "carlstarfelt": {
       "prob": "30%",
+      "teamId": 5
+    },
+    "elabdellaoui": {
+      "prob": "20%",
+      "teamId": 5
+    },
+    "joneselabdellaoui": {
+      "prob": "20%",
       "teamId": 5
     },
     "driouech": {
-      "prob": "30%",
+      "prob": "20%",
       "teamId": 5
     },
     "couhaibdriouech": {
-      "prob": "30%",
+      "prob": "20%",
       "teamId": 5
     },
     "faye": {
@@ -1141,11 +1157,11 @@
       "prob": "10%",
       "teamId": 5
     },
-    "elabdellaoui": {
-      "prob": "10%",
-      "teamId": 5
+    "iglesias": {
+      "prob": "95%",
+      "teamId": 17
     },
-    "joneselabdellaoui": {
+    "borjaiglesias": {
       "prob": "10%",
       "teamId": 5
     },
@@ -1157,27 +1173,19 @@
       "prob": "5%",
       "teamId": 5
     },
-    "roman": {
-      "prob": "0%",
-      "teamId": 5
-    },
-    "miguelroman": {
-      "prob": "0%",
-      "teamId": 5
-    },
-    "iglesias": {
-      "prob": "95%",
-      "teamId": 17
-    },
-    "borjaiglesias": {
-      "prob": "0%",
-      "teamId": 5
-    },
     "ivan villar": {
       "prob": "0%",
       "teamId": 5
     },
     "ivanvillar": {
+      "prob": "0%",
+      "teamId": 5
+    },
+    "roman": {
+      "prob": "0%",
+      "teamId": 5
+    },
+    "miguelroman": {
       "prob": "0%",
       "teamId": 5
     },
@@ -1417,83 +1425,11 @@
       "prob": "0%",
       "teamId": 6
     },
-    "valera": {
+    "dituro": {
       "prob": "90%",
       "teamId": 75
     },
-    "germanvalera": {
-      "prob": "90%",
-      "teamId": 75
-    },
-    "fer nino": {
-      "prob": "70%",
-      "teamId": 75
-    },
-    "fernandonino": {
-      "prob": "70%",
-      "teamId": 75
-    },
-    "cepeda": {
-      "prob": "70%",
-      "teamId": 75
-    },
-    "lucascepeda": {
-      "prob": "70%",
-      "teamId": 75
-    },
-    "morcillo": {
-      "prob": "90%",
-      "teamId": 75
-    },
-    "javimorcillo": {
-      "prob": "90%",
-      "teamId": 75
-    },
-    "villar": {
-      "prob": "80%",
-      "teamId": 75
-    },
-    "gonzalovillar": {
-      "prob": "80%",
-      "teamId": 75
-    },
-    "martim neto": {
-      "prob": "50%",
-      "teamId": 75
-    },
-    "osorio": {
-      "prob": "50%",
-      "teamId": 75
-    },
-    "tete morente": {
-      "prob": "40%",
-      "teamId": 75
-    },
-    "martimneto": {
-      "prob": "50%",
-      "teamId": 75
-    },
-    "revivo": {
-      "prob": "90%",
-      "teamId": 75
-    },
-    "royrevivo": {
-      "prob": "90%",
-      "teamId": 75
-    },
-    "redondo": {
-      "prob": "70%",
-      "teamId": 75
-    },
-    "federicoredondo": {
-      "prob": "70%",
-      "teamId": 75
-    },
-    "chust": {
-      "prob": "90%",
-      "teamId": 75
-    },
-    "victorchust": {
+    "matiasdituro": {
       "prob": "90%",
       "teamId": 75
     },
@@ -1505,24 +1441,88 @@
       "prob": "80%",
       "teamId": 75
     },
-    "dituro": {
+    "chust": {
       "prob": "90%",
       "teamId": 75
     },
-    "matiasdituro": {
+    "victorchust": {
+      "prob": "90%",
+      "teamId": 75
+    },
+    "redondo": {
+      "prob": "70%",
+      "teamId": 75
+    },
+    "federicoredondo": {
+      "prob": "70%",
+      "teamId": 75
+    },
+    "revivo": {
+      "prob": "90%",
+      "teamId": 75
+    },
+    "royrevivo": {
+      "prob": "90%",
+      "teamId": 75
+    },
+    "martim neto": {
+      "prob": "50%",
+      "teamId": 75
+    },
+    "osorio": {
+      "prob": "50%",
+      "teamId": 75
+    },
+    "diangana": {
+      "prob": "30%",
+      "teamId": 75
+    },
+    "martimneto": {
+      "prob": "50%",
+      "teamId": 75
+    },
+    "villar": {
+      "prob": "80%",
+      "teamId": 75
+    },
+    "gonzalovillar": {
+      "prob": "80%",
+      "teamId": 75
+    },
+    "morcillo": {
+      "prob": "90%",
+      "teamId": 75
+    },
+    "javimorcillo": {
+      "prob": "90%",
+      "teamId": 75
+    },
+    "cepeda": {
+      "prob": "70%",
+      "teamId": 75
+    },
+    "lucascepeda": {
+      "prob": "70%",
+      "teamId": 75
+    },
+    "fer nino": {
+      "prob": "70%",
+      "teamId": 75
+    },
+    "fernandonino": {
+      "prob": "70%",
+      "teamId": 75
+    },
+    "valera": {
+      "prob": "90%",
+      "teamId": 75
+    },
+    "germanvalera": {
       "prob": "90%",
       "teamId": 75
     },
     "abielosorio": {
       "prob": "50%",
-      "teamId": 75
-    },
-    "tetemorente": {
-      "prob": "40%",
-      "teamId": 75
-    },
-    "diangana": {
-      "prob": "30%",
       "teamId": 75
     },
     "gradydiangana": {
@@ -1542,6 +1542,14 @@
       "teamId": 75
     },
     "pedrobigas": {
+      "prob": "30%",
+      "teamId": 75
+    },
+    "tete morente": {
+      "prob": "30%",
+      "teamId": 75
+    },
+    "tetemorente": {
       "prob": "30%",
       "teamId": 75
     },
@@ -1605,14 +1613,6 @@
       "prob": "0%",
       "teamId": 75
     },
-    "lemar": {
-      "prob": "0%",
-      "teamId": 75
-    },
-    "thomaslemar": {
-      "prob": "0%",
-      "teamId": 75
-    },
     "bambo": {
       "prob": "0%",
       "teamId": 75
@@ -1626,6 +1626,14 @@
       "teamId": 75
     },
     "matiabarzic": {
+      "prob": "0%",
+      "teamId": 75
+    },
+    "lemar": {
+      "prob": "0%",
+      "teamId": 75
+    },
+    "thomaslemar": {
       "prob": "0%",
       "teamId": 75
     },
@@ -1845,92 +1853,8 @@
       "prob": "0%",
       "teamId": 7
     },
-    "valou": {
-      "prob": "50%",
-      "teamId": 8
-    },
-    "boselli": {
-      "prob": "40%",
-      "teamId": 8
-    },
-    "carvajal": {
-      "prob": "50%",
-      "teamId": 8
-    },
-    "jeanivesvalou": {
-      "prob": "50%",
-      "teamId": 8
-    },
     "zaidromero": {
       "prob": "90%",
-      "teamId": 8
-    },
-    "mojica": {
-      "prob": "90%",
-      "teamId": 8
-    },
-    "johanmojica": {
-      "prob": "90%",
-      "teamId": 8
-    },
-    "andres garcia": {
-      "prob": "60%",
-      "teamId": 8
-    },
-    "femenia": {
-      "prob": "40%",
-      "teamId": 8
-    },
-    "andresgarcia": {
-      "prob": "60%",
-      "teamId": 8
-    },
-    "gudelj": {
-      "prob": "90%",
-      "teamId": 8
-    },
-    "nemanjagudelj": {
-      "prob": "90%",
-      "teamId": 8
-    },
-    "mangala": {
-      "prob": "70%",
-      "teamId": 8
-    },
-    "orelmangala": {
-      "prob": "70%",
-      "teamId": 8
-    },
-    "francho": {
-      "prob": "50%",
-      "teamId": 8
-    },
-    "mario martin": {
-      "prob": "50%",
-      "teamId": 8
-    },
-    "franchoserrano": {
-      "prob": "50%",
-      "teamId": 8
-    },
-    "satriano": {
-      "prob": "80%",
-      "teamId": 8
-    },
-    "martinsatriano": {
-      "prob": "80%",
-      "teamId": 8
-    },
-    "enes unal": {
-      "prob": "70%",
-      "teamId": 8
-    },
-    "enesunal": {
-      "prob": "70%",
-      "teamId": 8
-    },
-    "terrats": {
-      "prob": "70%",
       "teamId": 8
     },
     "soria": {
@@ -1941,7 +1865,91 @@
       "prob": "95%",
       "teamId": 8
     },
-    "danielcarvajal": {
+    "terrats": {
+      "prob": "60%",
+      "teamId": 8
+    },
+    "ivan azon": {
+      "prob": "40%",
+      "teamId": 8
+    },
+    "enes unal": {
+      "prob": "80%",
+      "teamId": 8
+    },
+    "enesunal": {
+      "prob": "80%",
+      "teamId": 8
+    },
+    "satriano": {
+      "prob": "70%",
+      "teamId": 8
+    },
+    "martinsatriano": {
+      "prob": "70%",
+      "teamId": 8
+    },
+    "francho": {
+      "prob": "70%",
+      "teamId": 8
+    },
+    "franchoserrano": {
+      "prob": "70%",
+      "teamId": 8
+    },
+    "mangala": {
+      "prob": "80%",
+      "teamId": 8
+    },
+    "orelmangala": {
+      "prob": "80%",
+      "teamId": 8
+    },
+    "gudelj": {
+      "prob": "90%",
+      "teamId": 8
+    },
+    "nemanjagudelj": {
+      "prob": "90%",
+      "teamId": 8
+    },
+    "andres garcia": {
+      "prob": "70%",
+      "teamId": 8
+    },
+    "andresgarcia": {
+      "prob": "70%",
+      "teamId": 8
+    },
+    "mojica": {
+      "prob": "90%",
+      "teamId": 8
+    },
+    "johanmojica": {
+      "prob": "90%",
+      "teamId": 8
+    },
+    "valou": {
+      "prob": "50%",
+      "teamId": 8
+    },
+    "boselli": {
+      "prob": "30%",
+      "teamId": 8
+    },
+    "carvajal": {
+      "prob": "30%",
+      "teamId": 8
+    },
+    "femenia": {
+      "prob": "40%",
+      "teamId": 8
+    },
+    "jeanivesvalou": {
+      "prob": "50%",
+      "teamId": 8
+    },
+    "mario martin": {
       "prob": "50%",
       "teamId": 8
     },
@@ -1953,32 +1961,16 @@
       "prob": "40%",
       "teamId": 8
     },
-    "sebastianboselli": {
+    "ivanazon": {
       "prob": "40%",
       "teamId": 8
     },
-    "ivan azon": {
+    "danielcarvajal": {
       "prob": "30%",
       "teamId": 8
     },
-    "ivanazon": {
+    "sebastianboselli": {
       "prob": "30%",
-      "teamId": 8
-    },
-    "abqar": {
-      "prob": "20%",
-      "teamId": 8
-    },
-    "abdelabqar": {
-      "prob": "20%",
-      "teamId": 8
-    },
-    "sazonov": {
-      "prob": "20%",
-      "teamId": 8
-    },
-    "sabasazonov": {
-      "prob": "20%",
       "teamId": 8
     },
     "mayoral": {
@@ -1987,6 +1979,22 @@
     },
     "borjamayoral": {
       "prob": "20%",
+      "teamId": 8
+    },
+    "abqar": {
+      "prob": "10%",
+      "teamId": 8
+    },
+    "abdelabqar": {
+      "prob": "10%",
+      "teamId": 8
+    },
+    "sazonov": {
+      "prob": "10%",
+      "teamId": 8
+    },
+    "sabasazonov": {
+      "prob": "10%",
       "teamId": 8
     },
     "davinchi": {
@@ -2025,14 +2033,6 @@
       "prob": "0%",
       "teamId": 8
     },
-    "requena": {
-      "prob": "80%",
-      "teamId": 10
-    },
-    "danirequena": {
-      "prob": "80%",
-      "teamId": 10
-    },
     "ivan romero": {
       "prob": "70%",
       "teamId": 10
@@ -2058,35 +2058,47 @@
       "teamId": 10
     },
     "olasagasti": {
-      "prob": "90%",
+      "prob": "80%",
       "teamId": 10
     },
     "jonanderolasagasti": {
-      "prob": "90%",
+      "prob": "80%",
+      "teamId": 10
+    },
+    "etta eyong": {
+      "prob": "50%",
       "teamId": 10
     },
     "oriol rey": {
       "prob": "50%",
       "teamId": 10
     },
-    "etta eyong": {
+    "sotelo": {
       "prob": "40%",
       "teamId": 10
     },
-    "ratkov": {
-      "prob": "30%",
-      "teamId": 10
-    },
-    "oriolrey": {
+    "ettaeyong": {
       "prob": "50%",
       "teamId": 10
     },
+    "requena": {
+      "prob": "80%",
+      "teamId": 10
+    },
+    "danirequena": {
+      "prob": "80%",
+      "teamId": 10
+    },
     "mandi": {
-      "prob": "70%",
+      "prob": "60%",
+      "teamId": 10
+    },
+    "ndukwe": {
+      "prob": "50%",
       "teamId": 10
     },
     "aissamandi": {
-      "prob": "70%",
+      "prob": "60%",
       "teamId": 10
     },
     "de la fuente": {
@@ -2121,7 +2133,7 @@
       "prob": "70%",
       "teamId": 10
     },
-    "ndukwe": {
+    "oriolrey": {
       "prob": "50%",
       "teamId": 10
     },
@@ -2129,35 +2141,39 @@
       "prob": "50%",
       "teamId": 10
     },
-    "ettaeyong": {
+    "bardeli": {
       "prob": "40%",
+      "teamId": 10
+    },
+    "enzobardelli": {
+      "prob": "40%",
+      "teamId": 10
+    },
+    "hugosotelo": {
+      "prob": "40%",
+      "teamId": 10
+    },
+    "victor garcia": {
+      "prob": "30%",
+      "teamId": 10
+    },
+    "victorgarcia1": {
+      "prob": "30%",
+      "teamId": 10
+    },
+    "ratkov": {
+      "prob": "30%",
       "teamId": 10
     },
     "petarratkov": {
       "prob": "30%",
       "teamId": 10
     },
-    "bardeli": {
-      "prob": "30%",
-      "teamId": 10
-    },
-    "enzobardelli": {
-      "prob": "30%",
-      "teamId": 10
-    },
-    "sotelo": {
-      "prob": "30%",
-      "teamId": 10
-    },
-    "hugosotelo": {
-      "prob": "30%",
-      "teamId": 10
-    },
-    "victor garcia": {
+    "jorge cabello": {
       "prob": "20%",
       "teamId": 10
     },
-    "victorgarcia1": {
+    "jorgecabello": {
       "prob": "20%",
       "teamId": 10
     },
@@ -2174,14 +2190,6 @@
       "teamId": 10
     },
     "pacocortes": {
-      "prob": "10%",
-      "teamId": 10
-    },
-    "jorge cabello": {
-      "prob": "10%",
-      "teamId": 10
-    },
-    "jorgecabello": {
       "prob": "10%",
       "teamId": 10
     },
@@ -2445,80 +2453,16 @@
       "prob": "0%",
       "teamId": 65
     },
-    "boyomo": {
-      "prob": "80%",
+    "rosier": {
+      "prob": "60%",
       "teamId": 93
     },
-    "rosier": {
-      "prob": "80%",
+    "arguibide": {
+      "prob": "40%",
       "teamId": 93
     },
     "valentinrosier": {
-      "prob": "80%",
-      "teamId": 93
-    },
-    "herrera": {
-      "prob": "0%",
-      "teamId": 13
-    },
-    "sergioherrera": {
-      "prob": "95%",
-      "teamId": 93
-    },
-    "herrando": {
-      "prob": "70%",
-      "teamId": 93
-    },
-    "jorgeherrando": {
-      "prob": "70%",
-      "teamId": 93
-    },
-    "diego rico": {
-      "prob": "70%",
-      "teamId": 93
-    },
-    "diegorico": {
-      "prob": "70%",
-      "teamId": 93
-    },
-    "oroz": {
-      "prob": "80%",
-      "teamId": 93
-    },
-    "aimaroroz": {
-      "prob": "80%",
-      "teamId": 93
-    },
-    "moi gomez": {
-      "prob": "80%",
-      "teamId": 93
-    },
-    "moigomez": {
-      "prob": "80%",
-      "teamId": 93
-    },
-    "moncayola": {
-      "prob": "80%",
-      "teamId": 93
-    },
-    "jonmoncayola": {
-      "prob": "80%",
-      "teamId": 93
-    },
-    "ruben g": {
-      "prob": "70%",
-      "teamId": 93
-    },
-    "rubengarcia": {
-      "prob": "70%",
-      "teamId": 93
-    },
-    "budimir": {
-      "prob": "95%",
-      "teamId": 93
-    },
-    "antebudimir": {
-      "prob": "95%",
+      "prob": "60%",
       "teamId": 93
     },
     "kike barja": {
@@ -2537,7 +2481,79 @@
       "prob": "50%",
       "teamId": 93
     },
+    "budimir": {
+      "prob": "95%",
+      "teamId": 93
+    },
+    "antebudimir": {
+      "prob": "95%",
+      "teamId": 93
+    },
+    "ruben g": {
+      "prob": "70%",
+      "teamId": 93
+    },
+    "rubengarcia": {
+      "prob": "70%",
+      "teamId": 93
+    },
+    "moncayola": {
+      "prob": "80%",
+      "teamId": 93
+    },
+    "jonmoncayola": {
+      "prob": "80%",
+      "teamId": 93
+    },
+    "moi gomez": {
+      "prob": "80%",
+      "teamId": 93
+    },
+    "moigomez": {
+      "prob": "80%",
+      "teamId": 93
+    },
+    "oroz": {
+      "prob": "70%",
+      "teamId": 93
+    },
+    "aimaroroz": {
+      "prob": "70%",
+      "teamId": 93
+    },
+    "diego rico": {
+      "prob": "70%",
+      "teamId": 93
+    },
+    "diegorico": {
+      "prob": "70%",
+      "teamId": 93
+    },
+    "herrando": {
+      "prob": "70%",
+      "teamId": 93
+    },
+    "jorgeherrando": {
+      "prob": "70%",
+      "teamId": 93
+    },
+    "herrera": {
+      "prob": "0%",
+      "teamId": 13
+    },
+    "sergioherrera": {
+      "prob": "95%",
+      "teamId": 93
+    },
+    "boyomo": {
+      "prob": "80%",
+      "teamId": 93
+    },
     "raulmoro": {
+      "prob": "40%",
+      "teamId": 93
+    },
+    "inigoarguibide": {
       "prob": "40%",
       "teamId": 93
     },
@@ -2577,28 +2593,12 @@
       "prob": "30%",
       "teamId": 93
     },
-    "bretones": {
-      "prob": "20%",
-      "teamId": 93
-    },
-    "abelbretones": {
-      "prob": "20%",
-      "teamId": 93
-    },
-    "arguibide": {
-      "prob": "20%",
-      "teamId": 93
-    },
-    "inigoarguibide": {
-      "prob": "20%",
-      "teamId": 93
-    },
     "del castillo": {
-      "prob": "10%",
+      "prob": "20%",
       "teamId": 93
     },
     "romaindelcastillo": {
-      "prob": "10%",
+      "prob": "20%",
       "teamId": 93
     },
     "rafa": {
@@ -2615,6 +2615,14 @@
     },
     "raulgarcia1": {
       "prob": "5%",
+      "teamId": 93
+    },
+    "bretones": {
+      "prob": "20%",
+      "teamId": 93
+    },
+    "abelbretones": {
+      "prob": "20%",
       "teamId": 93
     },
     "yeboah": {
@@ -3049,43 +3057,47 @@
       "prob": "0%",
       "teamId": 70
     },
-    "guler": {
-      "prob": "70%",
+    "valverde": {
+      "prob": "90%",
       "teamId": 15
     },
-    "ardagler": {
-      "prob": "70%",
+    "federicovalverde": {
+      "prob": "90%",
       "teamId": 15
     },
-    "courtois": {
+    "mbappe": {
       "prob": "95%",
       "teamId": 15
     },
-    "thibautcourtois": {
+    "kylianmbappe": {
       "prob": "95%",
       "teamId": 15
     },
-    "konate": {
+    "vinicius": {
+      "prob": "50%",
+      "teamId": 15
+    },
+    "y diomande": {
+      "prob": "50%",
+      "teamId": 15
+    },
+    "viniciusjunior": {
+      "prob": "50%",
+      "teamId": 15
+    },
+    "bellingham": {
+      "prob": "90%",
+      "teamId": 15
+    },
+    "judebellingham": {
+      "prob": "90%",
+      "teamId": 15
+    },
+    "huijsen": {
       "prob": "70%",
       "teamId": 15
     },
-    "ibrahimakonate": {
-      "prob": "70%",
-      "teamId": 15
-    },
-    "cucurella": {
-      "prob": "70%",
-      "teamId": 15
-    },
-    "marccucurella": {
-      "prob": "70%",
-      "teamId": 15
-    },
-    "tchouameni": {
-      "prob": "70%",
-      "teamId": 15
-    },
-    "aurelientchouameni": {
+    "deanhuijsen": {
       "prob": "70%",
       "teamId": 15
     },
@@ -3097,51 +3109,47 @@
       "prob": "70%",
       "teamId": 15
     },
-    "huijsen": {
+    "tchouameni": {
       "prob": "70%",
       "teamId": 15
     },
-    "deanhuijsen": {
+    "aurelientchouameni": {
       "prob": "70%",
       "teamId": 15
     },
-    "bellingham": {
-      "prob": "90%",
+    "cucurella": {
+      "prob": "70%",
       "teamId": 15
     },
-    "judebellingham": {
-      "prob": "90%",
+    "marccucurella": {
+      "prob": "70%",
       "teamId": 15
     },
-    "y diomande": {
-      "prob": "50%",
+    "guler": {
+      "prob": "70%",
       "teamId": 15
     },
-    "vinicius": {
-      "prob": "50%",
+    "ardagler": {
+      "prob": "70%",
+      "teamId": 15
+    },
+    "konate": {
+      "prob": "70%",
+      "teamId": 15
+    },
+    "ibrahimakonate": {
+      "prob": "70%",
+      "teamId": 15
+    },
+    "courtois": {
+      "prob": "95%",
+      "teamId": 15
+    },
+    "thibautcourtois": {
+      "prob": "95%",
       "teamId": 15
     },
     "yandiomande": {
-      "prob": "50%",
-      "teamId": 15
-    },
-    "mbappe": {
-      "prob": "95%",
-      "teamId": 15
-    },
-    "kylianmbappe": {
-      "prob": "95%",
-      "teamId": 15
-    },
-    "valverde": {
-      "prob": "90%",
-      "teamId": 15
-    },
-    "federicovalverde": {
-      "prob": "90%",
-      "teamId": 15
-    },
-    "viniciusjunior": {
       "prob": "50%",
       "teamId": 15
     },
@@ -3453,64 +3461,24 @@
       "prob": "0%",
       "teamId": 13
     },
-    "suazo": {
-      "prob": "90%",
-      "teamId": 17
-    },
-    "gabrielsuazo": {
-      "prob": "90%",
-      "teamId": 17
-    },
-    "fofana": {
+    "kike salas": {
       "prob": "95%",
       "teamId": 17
     },
-    "youssouffofana": {
+    "kikesalas": {
       "prob": "95%",
       "teamId": 17
     },
-    "stassin": {
-      "prob": "70%",
-      "teamId": 17
-    },
-    "lucasstassin": {
-      "prob": "70%",
-      "teamId": 17
-    },
-    "felix correia": {
-      "prob": "90%",
-      "teamId": 17
-    },
-    "felixcorreia": {
-      "prob": "90%",
-      "teamId": 17
-    },
-    "guridi": {
-      "prob": "30%",
-      "teamId": 17
-    },
-    "kochorashvili": {
-      "prob": "30%",
-      "teamId": 17
-    },
-    "isaacromero": {
-      "prob": "50%",
-      "teamId": 17
-    },
-    "agoume": {
+    "juaniglesias": {
       "prob": "95%",
       "teamId": 17
     },
-    "lucienagoume": {
+    "vlachodimos": {
       "prob": "95%",
       "teamId": 17
     },
-    "ejuke": {
-      "prob": "40%",
-      "teamId": 17
-    },
-    "rubenvargas": {
-      "prob": "60%",
+    "odysseasvlachodimos": {
+      "prob": "95%",
       "teamId": 17
     },
     "castrin": {
@@ -3525,35 +3493,75 @@
       "prob": "50%",
       "teamId": 17
     },
-    "vlachodimos": {
+    "rubenvargas": {
+      "prob": "70%",
+      "teamId": 17
+    },
+    "agoume": {
       "prob": "95%",
       "teamId": 17
     },
-    "odysseasvlachodimos": {
+    "lucienagoume": {
       "prob": "95%",
       "teamId": 17
     },
-    "juaniglesias": {
+    "guridi": {
+      "prob": "50%",
+      "teamId": 17
+    },
+    "kochorashvili": {
+      "prob": "30%",
+      "teamId": 17
+    },
+    "jonguridi": {
+      "prob": "50%",
+      "teamId": 17
+    },
+    "felix correia": {
+      "prob": "90%",
+      "teamId": 17
+    },
+    "felixcorreia": {
+      "prob": "90%",
+      "teamId": 17
+    },
+    "stassin": {
+      "prob": "70%",
+      "teamId": 17
+    },
+    "lucasstassin": {
+      "prob": "70%",
+      "teamId": 17
+    },
+    "fofana": {
       "prob": "95%",
       "teamId": 17
     },
-    "kike salas": {
+    "youssouffofana": {
       "prob": "95%",
       "teamId": 17
     },
-    "kikesalas": {
-      "prob": "95%",
+    "suazo": {
+      "prob": "90%",
+      "teamId": 17
+    },
+    "gabrielsuazo": {
+      "prob": "90%",
       "teamId": 17
     },
     "arounasangante": {
       "prob": "50%",
       "teamId": 17
     },
-    "chideraejuke": {
+    "isaacromero": {
       "prob": "40%",
       "teamId": 17
     },
-    "jonguridi": {
+    "ejuke": {
+      "prob": "30%",
+      "teamId": 17
+    },
+    "chideraejuke": {
       "prob": "30%",
       "teamId": 17
     },
@@ -3567,14 +3575,6 @@
     },
     "giorgikochorashvili1": {
       "prob": "30%",
-      "teamId": 17
-    },
-    "manu bueno": {
-      "prob": "10%",
-      "teamId": 17
-    },
-    "manubueno": {
-      "prob": "10%",
       "teamId": 17
     },
     "peque": {
@@ -3595,6 +3595,14 @@
     },
     "frangonzalez2": {
       "prob": "5%",
+      "teamId": 17
+    },
+    "manu bueno": {
+      "prob": "0%",
+      "teamId": 17
+    },
+    "manubueno": {
+      "prob": "0%",
       "teamId": 17
     },
     "marcao": {
@@ -3857,91 +3865,7 @@
       "prob": "0%",
       "teamId": 18
     },
-    "s cardona": {
-      "prob": "40%",
-      "teamId": 19
-    },
     "carlosromero": {
-      "prob": "60%",
-      "teamId": 19
-    },
-    "moleiro": {
-      "prob": "80%",
-      "teamId": 19
-    },
-    "albertomoleiro": {
-      "prob": "80%",
-      "teamId": 19
-    },
-    "gulacsi": {
-      "prob": "90%",
-      "teamId": 19
-    },
-    "petergulacsi": {
-      "prob": "90%",
-      "teamId": 19
-    },
-    "logan costa": {
-      "prob": "80%",
-      "teamId": 19
-    },
-    "logancosta": {
-      "prob": "80%",
-      "teamId": 19
-    },
-    "buchanan": {
-      "prob": "80%",
-      "teamId": 19
-    },
-    "tajonbuchanan": {
-      "prob": "80%",
-      "teamId": 19
-    },
-    "comesana": {
-      "prob": "70%",
-      "teamId": 19
-    },
-    "santicomesana": {
-      "prob": "70%",
-      "teamId": 19
-    },
-    "freeman": {
-      "prob": "50%",
-      "teamId": 19
-    },
-    "mourino": {
-      "prob": "50%",
-      "teamId": 19
-    },
-    "alexfreeman": {
-      "prob": "50%",
-      "teamId": 19
-    },
-    "oluwaseyi": {
-      "prob": "60%",
-      "teamId": 19
-    },
-    "pepe": {
-      "prob": "40%",
-      "teamId": 19
-    },
-    "tanioluwaseyi": {
-      "prob": "60%",
-      "teamId": 19
-    },
-    "pape gueye": {
-      "prob": "80%",
-      "teamId": 19
-    },
-    "papegueye": {
-      "prob": "80%",
-      "teamId": 19
-    },
-    "mikautadze": {
-      "prob": "70%",
-      "teamId": 19
-    },
-    "georgesmikautadze": {
       "prob": "70%",
       "teamId": 19
     },
@@ -3953,63 +3877,147 @@
       "prob": "90%",
       "teamId": 19
     },
+    "mikautadze": {
+      "prob": "70%",
+      "teamId": 19
+    },
+    "georgesmikautadze": {
+      "prob": "70%",
+      "teamId": 19
+    },
+    "pape gueye": {
+      "prob": "60%",
+      "teamId": 19
+    },
+    "carlos macia": {
+      "prob": "50%",
+      "teamId": 19
+    },
+    "papegueye": {
+      "prob": "60%",
+      "teamId": 19
+    },
+    "oluwaseyi": {
+      "prob": "50%",
+      "teamId": 19
+    },
+    "pepe": {
+      "prob": "50%",
+      "teamId": 19
+    },
+    "tanioluwaseyi": {
+      "prob": "50%",
+      "teamId": 19
+    },
+    "freeman": {
+      "prob": "70%",
+      "teamId": 19
+    },
+    "alexfreeman": {
+      "prob": "70%",
+      "teamId": 19
+    },
+    "comesana": {
+      "prob": "80%",
+      "teamId": 19
+    },
+    "santicomesana": {
+      "prob": "80%",
+      "teamId": 19
+    },
+    "buchanan": {
+      "prob": "70%",
+      "teamId": 19
+    },
+    "tajonbuchanan": {
+      "prob": "70%",
+      "teamId": 19
+    },
+    "logan costa": {
+      "prob": "80%",
+      "teamId": 19
+    },
+    "logancosta": {
+      "prob": "80%",
+      "teamId": 19
+    },
+    "gulacsi": {
+      "prob": "80%",
+      "teamId": 19
+    },
+    "petergulacsi": {
+      "prob": "80%",
+      "teamId": 19
+    },
+    "moleiro": {
+      "prob": "80%",
+      "teamId": 19
+    },
+    "albertomoleiro": {
+      "prob": "80%",
+      "teamId": 19
+    },
+    "nicolaspepe": {
+      "prob": "50%",
+      "teamId": 19
+    },
+    "carlosmacia": {
+      "prob": "50%",
+      "teamId": 19
+    },
+    "mourino": {
+      "prob": "50%",
+      "teamId": 19
+    },
     "santiagomourino": {
       "prob": "50%",
       "teamId": 19
     },
-    "nicolaspepe": {
-      "prob": "40%",
-      "teamId": 19
-    },
-    "carlos macia": {
-      "prob": "40%",
-      "teamId": 19
-    },
-    "carlosmacia": {
-      "prob": "40%",
-      "teamId": 19
-    },
-    "sergicardona": {
-      "prob": "40%",
-      "teamId": 19
-    },
     "ayoze": {
-      "prob": "30%",
+      "prob": "40%",
       "teamId": 19
     },
     "ayozeperez": {
-      "prob": "30%",
-      "teamId": 19
-    },
-    "foyth": {
-      "prob": "30%",
-      "teamId": 19
-    },
-    "juanfoyth": {
-      "prob": "30%",
+      "prob": "40%",
       "teamId": 19
     },
     "gerard": {
-      "prob": "10%",
+      "prob": "30%",
       "teamId": 19
     },
     "gerardmoreno": {
-      "prob": "10%",
+      "prob": "30%",
+      "teamId": 19
+    },
+    "s cardona": {
+      "prob": "30%",
+      "teamId": 19
+    },
+    "sergicardona": {
+      "prob": "30%",
       "teamId": 19
     },
     "akhomach": {
-      "prob": "10%",
+      "prob": "20%",
       "teamId": 19
     },
     "iliasakhomach": {
-      "prob": "10%",
+      "prob": "20%",
       "teamId": 19
     },
     "luiz junior": {
-      "prob": "10%",
+      "prob": "20%",
       "teamId": 19
     },
     "luizjunior": {
+      "prob": "20%",
+      "teamId": 19
+    },
+    "foyth": {
+      "prob": "10%",
+      "teamId": 19
+    },
+    "juanfoyth": {
       "prob": "10%",
       "teamId": 19
     },
